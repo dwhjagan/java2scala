@@ -1,5 +1,7 @@
+edu3/interface2.class
 module3/MySearchHelper.class
 module3/MyTVRemote.class
+edu3/Animal.class
 module1/DoWhileDemo.class
 module4/TestNestedException.class
 Edu2/Pupage.class
@@ -8,7 +10,9 @@ module3/AbstractTVRemote.class
 module3/randevent/RandEvent.class
 Edu2/Direction.class
 Edu2/Constructorex1.class
+edu3/B.class
 module3/randevent/RandEventSource.class
+edu3/com/constructor/constructor.class
 Edu2/test.class
 module1/Module1.class
 module5/generics/FriendshipCriteria.class
@@ -18,6 +22,7 @@ module3/SearchHelper.class
 Edu2/EmployeeDemo.class
 module3/TestEventSource.class
 module2/ConstructorChainingChild.class
+edu3/inter.class
 module2/IntegerFinderListener.class
 Edu2/firstprogram.class
 module1/PrintOddNumbers.class
@@ -25,6 +30,7 @@ module4/ArrayDataException.class
 module2/Rectangle.class
 module4/util/MathUtil.class
 module2/SuperStudyChild.class
+edu3/A.class
 module5/generics/ArithmeticOperations.class
 module5/generics/GenericMethodTest.class
 module1/PrintEvenNumbers.class
@@ -35,7 +41,9 @@ module5/asso/TestMap.class
 module1/MatrixAddition.class
 module5/seq/TestVector.class
 module2/IntegerFinderTest.class
+edu3/enumerator$Gender.class
 module2/IntegerSearch.class
+edu3/staticclass.class
 module5/generics/GenericUtils.class
 module3/randevent/RandEventConsumer.class
 module2/AbstractSearch.class
@@ -49,13 +57,16 @@ module3/ISearchHelper.class
 module4/util/NotAPrimeNumberException.class
 Edu2/EmployeeDemo$1Employee.class
 module5/generics/KeyValuePair.class
+edu3/enumerator.class
 Edu2/enumclass$1.class
 module4/DateFormatChecker.class
 module2/SuperStudy.class
 Edu2/enumclass.class
 module2/Quadrilateral.class
+edu3/constructor.class
 module3/TestEventConsumer.class
 module5/generics/City.class
 Edu2/MonthFromNumber.class
+edu3/block.class
 module5/generics/GoldenRules.class
 Edu2/Employee.class
