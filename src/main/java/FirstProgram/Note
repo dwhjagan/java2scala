@@ -1,0 +1,34 @@
+
+Object − Objects have states and behaviors.
+Example: A dog has states - color, name, breed as well as behavior such as wagging their tail,
+barking, eating. An object is an instance of a class.
+
+Class − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type supports.
+
+Methods − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
+
+Instance Variables − Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.
+
+Java is an Object-Oriented Language.
+As a language that has the Object-Oriented feature,
+Java supports the following fundamental concepts −
+
+Polymorphism
+Inheritance
+objectoriented.Encapsulation
+Abstraction
+Classes
+Objects
+Instance
+Method
+Message Parsing
+
+Escape Sequence	Description
+\t	Inserts a tab in the text at this point.
+\b	Inserts a backspace in the text at this point.
+\n	Inserts a newline in the text at this point.
+\r	Inserts a carriage return in the text at this point.
+\f	Inserts a form feed in the text at this point.
+\'	Inserts a single quote character in the text at this point.
+\"	Inserts a double quote character in the text at this point.
+\\	Inserts a backslash character in the text at this point.
