@@ -1,4 +1,4 @@
-package Scala.Collection
+package edu7
 
 object Reverse_List_Order {
    def main(args: Array[String]) {

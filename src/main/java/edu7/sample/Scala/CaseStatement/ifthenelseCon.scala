@@ -1,4 +1,4 @@
-package Scala.CaseStatement
+package edu7
 
 object ifthenelseCon {
    def main(args: Array[String]) {

@@ -1,6 +1,5 @@
-package Scala.Helloworld
-
-import Samples.Scala.Helloworld.Implicit_run._
+package edu7
+import Scala.Helloworld.Implicit_run._
 
 object Implicit_object {
    def main(args: Array[String]) {

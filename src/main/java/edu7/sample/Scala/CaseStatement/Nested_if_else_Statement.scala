@@ -1,4 +1,4 @@
-package Scala.CaseStatement
+package edu7
 
 object Nested_if_else_Statement {
    def main(args: Array[String]) {

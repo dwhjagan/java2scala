@@ -1,4 +1,4 @@
-package Scala.Collection
+package edu7
 
 object Collection_sample9 {
    def main(args: Array[String]) {
