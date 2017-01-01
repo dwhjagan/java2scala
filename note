@@ -2,6 +2,9 @@ git add .
 git commit -am "10th Phase commit point"
 git push -u origin master
 
+https://www.tutorialspoint.com/design_pattern/null_object_pattern.htm
+
+
 + : accessible
 o : not accessible
 

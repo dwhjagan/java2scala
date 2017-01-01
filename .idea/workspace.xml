@@ -2,9 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2602d5c-1724-4cbf-8985-20b1af6f05e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Encapsulation/EncapTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/InheritanceType2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Inheritancecal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/My_Calculation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Super_class.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/MammalInt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/interfaceclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/DiffDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuiceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/Puppy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/CommandLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleMinNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleOverloading.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleVoid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/swappingExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Puppy1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/RegexMatches.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/arrayclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/breakclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/conclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/c1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/dateclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charAtclass/returndoc.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charclass/charclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/caseclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/doclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/eleifelse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/forclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifelseifclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifesleclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/whileclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/parsingclass/parsingclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/TestArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringarray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringdemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringlength.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/valuclass/valueclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Car.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Salaryemp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Vehicle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/booleanclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/v2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/var.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/Boy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/Noargs_param_constructorClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestOverloading.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/chaincontructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/defaultconstructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/methods/methodclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloading_con_this.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloadingcontructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/paramcontructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/privatecon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/inter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/interface2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Constructorex1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo$1Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/HelloYou.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/MonthFromNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Pupage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/firstprogram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/k.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/m.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/A.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/B.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/block.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/com/constructor/constructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/constructor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator$Gender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/inter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/interface2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/staticclass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/DoWhileDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/MatrixAddition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/Module1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/NineTable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintEvenNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintOddNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/AbstractSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingChild.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingParent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Quadrilateral.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudyChild.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/AbstractTVRemote.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/Capital.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/ISearchHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MySearchHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MyTVRemote.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/SearchHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventConsumer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestI18n.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventConsumer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/ArrayDataException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/DateFormatChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/TestNestedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/MathUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/NotAPrimeNumberException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/asso/TestMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/ArithmeticOperations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/BinarySearchTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/City.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendFinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendshipCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericMethodTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GoldenRules.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/KeyValuePair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestVector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note" afterPath="$PROJECT_DIR$/note" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +178,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="note" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/note">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javabyref.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +255,7 @@
         <option value="$PROJECT_DIR$/src/main/java/modules/module1/NineTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/modules/module1/DoWhileDemo.java" />
         <option value="$PROJECT_DIR$/note" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java" />
       </list>
     </option>
   </component>
@@ -198,6 +380,250 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="faq" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Edu5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Edu2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scalajavarepo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="construc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -821,16 +1247,16 @@
       <updated>1483220492279</updated>
       <workItem from="1483220498239" duration="8887000" />
       <workItem from="1483229529475" duration="5023000" />
-      <workItem from="1483234864399" duration="561000" />
+      <workItem from="1483234864399" duration="2121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14471000" />
+    <option name="totallyTimeSpent" value="16031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="694" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -846,7 +1272,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25282714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25282714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -911,7 +1337,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu7/IO2$.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/IOEX$.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/multiple.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/closure$.java" />
@@ -1184,8 +1609,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/note">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
