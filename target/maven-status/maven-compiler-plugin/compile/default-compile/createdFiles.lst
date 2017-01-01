@@ -1,6 +1,9 @@
+edu/faq/CustomerFactory.class
 edu/Edu2/Direction.class
+edu/faq/nullobjectpattern1.class
 FirstProgram/loop/ifclass.class
 modules/module3/Capital.class
+edu/faq/RealCustomer.class
 edu/edu3/interface2.class
 FirstProgram/variable/booleanclass.class
 FirstProgram/valuclass/valueclass.class
@@ -12,6 +15,7 @@ modules/module3/MyTVRemote.class
 FirstProgram/RegularExpression/replace2.class
 modules/module2/AbstractSearch.class
 modules/module5/generics/City.class
+edu/faq/Shape.class
 modules/module3/SearchHelper.class
 Encapsulation/Inheritance/InheritanceType2.class
 FirstProgram/stringclass/stringclass.class
@@ -38,6 +42,7 @@ modules/module5/asso/TestMap.class
 edu/edu3/inter.class
 FirstProgram/variable/Vehicle.class
 edu/Edu2/EmployeeDemo.class
+edu/faq/Rectangle.class
 com/construc/TestOverloading.class
 Encapsulation/interfacepkg/MammalInt.class
 edu/Edu2/Constructorex1.class
@@ -55,10 +60,13 @@ edu/edu3/staticclass.class
 edu/edu3/enumerator.class
 FirstProgram/FirstProgram/FreshJuice.class
 FirstProgram/variable/Salaryemp.class
+edu/faq/Circle.class
 FirstProgram/variable/var.class
 edu/edu3/Animal.class
 edu/Edu5/k.class
+edu/faq/NullCustomer.class
 com/construc/defaultconstructor.class
+edu/faq/FactoryPatternDemo.class
 Encapsulation/Inheritance/My_Calculation.class
 FirstProgram/breakclass/arrayclass.class
 FirstProgram/stringclass/stringclass1.class
@@ -79,6 +87,7 @@ modules/module2/IntegerSearch.class
 modules/module1/PrintOddNumbers.class
 modules/module5/generics/BinarySearchTest.class
 FirstProgram/stringclass/stringdemo.class
+edu/faq/AbstractCustomer.class
 modules/module3/TestEventSource.class
 com/interfaces/Animal.class
 edu/Edu2/firstprogram.class
@@ -104,6 +113,7 @@ edu/edu3/constructor.class
 FirstProgram/loop/forclass.class
 modules/module1/MatrixAddition.class
 com/construc/overloading_con_this.class
+edu/faq/ShapeFactory.class
 FirstProgram/variable/v2.class
 modules/module1/NineTable.class
 modules/module3/TestI18n.class
@@ -133,6 +143,7 @@ modules/module3/TestEvent.class
 modules/module4/DateFormatChecker.class
 modules/module3/TestEventListener.class
 FirstProgram/loop/doclass.class
+edu/faq/Square.class
 FirstProgram/Methodclass/swappingExample.class
 FirstProgram/parsingclass/parsingclass.class
 modules/module5/seq/TestVector.class

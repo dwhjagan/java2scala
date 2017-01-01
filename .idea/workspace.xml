@@ -2,162 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2602d5c-1724-4cbf-8985-20b1af6f05e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Encapsulation/EncapTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/InheritanceType2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Inheritancecal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/My_Calculation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Super_class.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/MammalInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/interfaceclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/DiffDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/Puppy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/CommandLine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleMinNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleOverloading.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleVoid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/swappingExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Puppy1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/RegexMatches.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/arrayclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/breakclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/conclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/c1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/dateclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charAtclass/returndoc.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charclass/charclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/caseclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/doclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/eleifelse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/forclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifelseifclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifesleclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/whileclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/parsingclass/parsingclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/TestArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringarray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringdemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringlength.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/valuclass/valueclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Car.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Salaryemp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Vehicle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/booleanclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/v2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/var.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/Boy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/Noargs_param_constructorClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestOverloading.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/chaincontructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/defaultconstructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/methods/methodclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloading_con_this.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloadingcontructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/paramcontructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/construc/privatecon.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/B.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/inter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/interface2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Constructorex1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Direction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo$1Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/HelloYou.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/MonthFromNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Pupage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/firstprogram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/k.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/m.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/Animal.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/B.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/block.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/com/constructor/constructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/constructor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator$Gender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/inter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/interface2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/staticclass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/DoWhileDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/MatrixAddition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/Module1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/NineTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintEvenNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintOddNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/AbstractSearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingChild.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingParent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerSearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Quadrilateral.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Rectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudyChild.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/AbstractTVRemote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/Capital.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/ISearchHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MySearchHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MyTVRemote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/SearchHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestI18n.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/ArrayDataException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/DateFormatChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/TestNestedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/MathUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/NotAPrimeNumberException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/asso/TestMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/ArithmeticOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/BinarySearchTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/City.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendFinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendshipCriteria.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericMethodTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GoldenRules.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/KeyValuePair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/FactoryPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/nullobjectpattern1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note" afterPath="$PROJECT_DIR$/note" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -183,18 +30,46 @@
         <entry file="file://$PROJECT_DIR$/note">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javabyref.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java">
+      <file leaf-file-name="nullobjectpattern1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/nullobjectpattern1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1488">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryPatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/FactoryPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +82,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getCustomer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -256,6 +136,9 @@
         <option value="$PROJECT_DIR$/src/main/java/modules/module1/DoWhileDemo.java" />
         <option value="$PROJECT_DIR$/note" />
         <option value="$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/faq/nullobjectpattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/faq/nullobjectpattern1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/faq/javapattern.java" />
       </list>
     </option>
   </component>
@@ -439,12 +322,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="edu7" />
+              <option name="myItemId" value="faq" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="FactoryPatternDemo.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -502,70 +385,6 @@
               <option name="myItemId" value="edu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Edu5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java2scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java2scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Edu2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -590,40 +409,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java2scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="construc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,47 +435,7 @@
       <recent name="$PROJECT_DIR$/src/main/scala/Scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntegerFinderTest">
-    <configuration default="false" name="MatrixAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="modules.module1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="modules.module1.MatrixAddition" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java2scala" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="NineTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="modules.module1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="modules.module1.NineTable" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java2scala" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FactoryPatternDemo">
     <configuration default="false" name="PrintEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -739,6 +484,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="modules.module2.IntegerFinderTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java2scala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="nullobjectpattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.faq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="edu.faq.nullobjectpattern1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java2scala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.faq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="edu.faq.FactoryPatternDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1201,19 +986,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MatrixAddition" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NineTable" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PrintEvenNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AbstractSearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IntegerFinderTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PrintEvenNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AbstractSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntegerFinderTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.nullobjectpattern1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FactoryPatternDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IntegerFinderTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AbstractSearch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrintEvenNumbers" />
-        <item index="3" class="java.lang.String" itemvalue="Application.NineTable" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MatrixAddition" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FactoryPatternDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.nullobjectpattern1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IntegerFinderTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AbstractSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrintEvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -1247,12 +1032,12 @@
       <updated>1483220492279</updated>
       <workItem from="1483220498239" duration="8887000" />
       <workItem from="1483229529475" duration="5023000" />
-      <workItem from="1483234864399" duration="2121000" />
+      <workItem from="1483234864399" duration="7615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16031000" />
+    <option name="totallyTimeSpent" value="21525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="694" extended-state="6" />
@@ -1261,20 +1046,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25282714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1284,7 +1070,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1302,21 +1087,21 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1337,8 +1122,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu7/IOEX$.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu7/multiple.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/closure$.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/Demo2$.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu7/callbyname$.java" />
@@ -1522,6 +1305,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,16 +1394,50 @@
     <entry file="file://$PROJECT_DIR$/note">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/javabyref.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="445">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/nullobjectpattern1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/FactoryPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
