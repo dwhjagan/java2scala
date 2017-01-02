@@ -1,184 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2602d5c-1724-4cbf-8985-20b1af6f05e4" name="Default" comment="sdsf">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/sample/animal.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/UpperTypeBounds.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/a1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/array89.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/e1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/m13.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/s89.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/t1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Encapsulation/EncapTest.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/Encapsulation/EncapTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/InheritanceType2.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/InheritanceType2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Inheritancecal.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Inheritancecal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/My_Calculation.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/My_Calculation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Super_class.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/Inheritance/Super_class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/MammalInt.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/MammalInt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/interfaceclass.class" afterPath="$PROJECT_DIR$/target/classes/Encapsulation/interfacepkg/interfaceclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat2.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat3.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat4.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Dateclass/dateformat4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/DiffDemo.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/DiffDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuiceTest.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/FreshJuiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram1.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/MyFirstJavaProgram1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/Puppy.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/FirstProgram/Puppy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/CommandLine.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/CommandLine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleMinNumber.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleMinNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleOverloading.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleOverloading.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleVoid.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/ExampleVoid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/swappingExample.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Methodclass/swappingExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/Puppy1.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/Puppy1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/RegexMatches.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/RegexMatches.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace2.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace3.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace4.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/RegularExpression/replace4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/arrayclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/arrayclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/breakclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/breakclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/conclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/breakclass/conclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/c1.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/c1/c1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/c1/dateclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/c1/dateclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charAtclass/returndoc.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/charAtclass/returndoc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/charclass/charclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/charclass/charclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/caseclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/caseclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/doclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/doclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/eleifelse.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/eleifelse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/forclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/forclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifelseifclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifelseifclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifesleclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/ifesleclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/loop/whileclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/loop/whileclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/parsingclass/parsingclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/parsingclass/parsingclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/TestArray.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/TestArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringarray.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringarray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass1.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass12.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringclass12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringdemo.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringdemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringlength.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/stringclass/stringlength.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/valuclass/valueclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/valuclass/valueclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Car.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Car.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Salaryemp.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Salaryemp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Test.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Vehicle.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/Vehicle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/booleanclass.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/booleanclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/employee.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/v2.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/v2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FirstProgram/variable/var.class" afterPath="$PROJECT_DIR$/target/classes/FirstProgram/variable/var.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/Boy.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/Boy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/Noargs_param_constructorClass.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/Noargs_param_constructorClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/TestDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/TestOverloading.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/TestOverloading.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/chaincontructor.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/chaincontructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/defaultconstructor.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/defaultconstructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/methods/methodclass.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/methods/methodclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloading_con_this.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/overloading_con_this.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/overloadingcontructor.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/overloadingcontructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/paramcontructor.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/paramcontructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/construc/privatecon.class" afterPath="$PROJECT_DIR$/target/classes/com/construc/privatecon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/A.class" afterPath="$PROJECT_DIR$/target/classes/com/interfaces/A.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/Animal.class" afterPath="$PROJECT_DIR$/target/classes/com/interfaces/Animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/B.class" afterPath="$PROJECT_DIR$/target/classes/com/interfaces/B.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/inter.class" afterPath="$PROJECT_DIR$/target/classes/com/interfaces/inter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/interfaces/interface2.class" afterPath="$PROJECT_DIR$/target/classes/com/interfaces/interface2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Constructorex1.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/Constructorex1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Direction.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/Direction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Employee.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo$1Employee.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo$1Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/EmployeeDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/HelloYou.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/HelloYou.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/MonthFromNumber.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/MonthFromNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/Pupage.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/Pupage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass$1.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/enumclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/firstprogram.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/firstprogram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu2/test.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu2/test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/k.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu5/k.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/Edu5/m.class" afterPath="$PROJECT_DIR$/target/classes/edu/Edu5/m.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/A.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/A.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/Animal.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/Animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/B.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/B.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/block.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/block.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/com/constructor/constructor.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/com/constructor/constructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/constructor.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/constructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator$Gender.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator$Gender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/enumerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/inter.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/inter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/interface2.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/interface2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/edu3/staticclass.class" afterPath="$PROJECT_DIR$/target/classes/edu/edu3/staticclass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/AbstractCustomer.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/AbstractCustomer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/Circle.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/CustomerFactory.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/CustomerFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/FactoryPatternDemo.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/FactoryPatternDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/NullCustomer.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/NullCustomer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/RealCustomer.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/RealCustomer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/Shape.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/Shape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/ShapeFactory.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/ShapeFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/Square.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/Square.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/faq/nullobjectpattern1.class" afterPath="$PROJECT_DIR$/target/classes/edu/faq/nullobjectpattern1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/DoWhileDemo.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/DoWhileDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/MatrixAddition.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/MatrixAddition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/Module1.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/Module1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/NineTable.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/NineTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintEvenNumbers.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/PrintEvenNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module1/PrintOddNumbers.class" afterPath="$PROJECT_DIR$/target/classes/modules/module1/PrintOddNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/AbstractSearch.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/AbstractSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingChild.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingChild.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingParent.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/ConstructorChainingParent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderListener.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest$1.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/IntegerFinderTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/IntegerSearch.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/IntegerSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Quadrilateral.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/Quadrilateral.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/Rectangle.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudy.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudyChild.class" afterPath="$PROJECT_DIR$/target/classes/modules/module2/SuperStudyChild.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/AbstractTVRemote.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/AbstractTVRemote.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/Capital.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/Capital.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/ISearchHelper.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/ISearchHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MySearchHelper.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/MySearchHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/MyTVRemote.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/MyTVRemote.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/SearchHelper.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/SearchHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEvent.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/TestEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventConsumer.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/TestEventConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventListener.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/TestEventListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestEventSource.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/TestEventSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/TestI18n.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/TestI18n.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEvent.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventConsumer.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventConsumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventListener.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventSource.class" afterPath="$PROJECT_DIR$/target/classes/modules/module3/randevent/RandEventSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module4/ArrayDataException.class" afterPath="$PROJECT_DIR$/target/classes/modules/module4/ArrayDataException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module4/DateFormatChecker.class" afterPath="$PROJECT_DIR$/target/classes/modules/module4/DateFormatChecker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module4/TestNestedException.class" afterPath="$PROJECT_DIR$/target/classes/modules/module4/TestNestedException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/MathUtil.class" afterPath="$PROJECT_DIR$/target/classes/modules/module4/util/MathUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module4/util/NotAPrimeNumberException.class" afterPath="$PROJECT_DIR$/target/classes/modules/module4/util/NotAPrimeNumberException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/asso/TestMap.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/asso/TestMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/ArithmeticOperations.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/ArithmeticOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/BinarySearchTest.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/BinarySearchTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/City.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/City.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendFinder.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendFinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendshipCriteria.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/FriendshipCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericMethodTest.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericMethodTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericUtils.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/GenericUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/GoldenRules.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/GoldenRules.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/generics/KeyValuePair.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/generics/KeyValuePair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestSet.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestVector.class" afterPath="$PROJECT_DIR$/target/classes/modules/module5/seq/TestVector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java2scala.iml" afterPath="$PROJECT_DIR$/java2scala.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note" afterPath="$PROJECT_DIR$/note" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/faq/FactoryPatternDemo.java" afterPath="$PROJECT_DIR$/src/main/java/edu/faq/FactoryPatternDemo.java" />
-    </list>
+    <list default="true" id="b2602d5c-1724-4cbf-8985-20b1af6f05e4" name="Default" comment="sdsf" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -205,7 +28,7 @@
       <file leaf-file-name="UpperTypeBounds.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/UpperTypeBounds.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="-24">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -1196,12 +1019,12 @@
       <workItem from="1483234864399" duration="7728000" />
       <workItem from="1483291190266" duration="3331000" />
       <workItem from="1483296903177" duration="4873000" />
-      <workItem from="1483310340153" duration="2204000" />
+      <workItem from="1483310340153" duration="2796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32046000" />
+    <option name="totallyTimeSpent" value="32638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,7 +1048,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1764,7 +1587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/faq/UpperTypeBounds.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="-24">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
