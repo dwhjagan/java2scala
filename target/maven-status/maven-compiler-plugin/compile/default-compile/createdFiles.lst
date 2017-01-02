@@ -32,6 +32,7 @@ com/construc/paramcontructor.class
 modules/module2/IntegerFinderListener.class
 FirstProgram/Methodclass/ExampleVoid.class
 modules/module5/generics/FriendshipCriteria.class
+edu/faq/a1.class
 modules/module1/DoWhileDemo.class
 FirstProgram/RegularExpression/RegexMatches.class
 FirstProgram/breakclass/conclass.class
@@ -39,6 +40,7 @@ FirstProgram/stringclass/stringarray.class
 modules/module5/generics/ArithmeticOperations.class
 com/interfaces/A.class
 modules/module5/asso/TestMap.class
+edu/faq/s89.class
 edu/edu3/inter.class
 FirstProgram/variable/Vehicle.class
 edu/Edu2/EmployeeDemo.class
@@ -54,6 +56,7 @@ modules/module5/generics/GoldenRules.class
 com/construc/methods/methodclass.class
 modules/module2/Rectangle.class
 edu/edu3/A.class
+edu/faq/t1.class
 FirstProgram/stringclass/stringclass12.class
 modules/module3/randevent/RandEventSource.class
 edu/edu3/staticclass.class
@@ -157,6 +160,7 @@ Encapsulation/interfacepkg/interfaceclass.class
 edu/edu3/com/constructor/constructor.class
 FirstProgram/FirstProgram/MyFirstJavaProgram.class
 edu/edu3/enumerator$Gender.class
+edu/faq/m13.class
 FirstProgram/loop/eleifelse.class
 edu/Edu2/enumclass$1.class
 modules/module2/Quadrilateral.class
