@@ -1,8 +1,5 @@
 package x.crazyjvm.strategy.s
 
-/**
- * Created by chenchao on 15/10/13.
- */
 object Main extends App{
   type Strategy = (Int, Int) => Int
 
