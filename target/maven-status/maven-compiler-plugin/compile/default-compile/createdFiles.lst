@@ -18,6 +18,7 @@ FirstProgram/stringclass/stringarray.class
 edu/faq/s89.class
 x/crazyjvm/command/j/Invoker.class
 edu/Edu2/EmployeeDemo.class
+valtech/conseq.class
 x/crazyjvm/ioc/j/DatabaseRepository.class
 edu/Edu2/Constructorex1.class
 x/crazyjvm/adapter/j/LoggerToLogAdapter.class
@@ -26,6 +27,7 @@ FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class
 FirstProgram/loop/ifelseifclass.class
 modules/module5/generics/GoldenRules.class
 com/construc/methods/methodclass.class
+valtech/StdOut.class
 edu/faq/t1.class
 edu/edu3/staticclass.class
 edu/edu3/enumerator.class
@@ -53,6 +55,7 @@ x/crazyjvm/factory/j/Dog.class
 FirstProgram/FirstProgram/Puppy.class
 FirstProgram/Methodclass/ExampleMinNumber.class
 FirstProgram/stringclass/stringlength.class
+valtech/palindrom90.class
 x/crazyjvm/strategy/j/Multiply.class
 FirstProgram/Puppy1.class
 x/crazyjvm/ioc/j/UserService.class
