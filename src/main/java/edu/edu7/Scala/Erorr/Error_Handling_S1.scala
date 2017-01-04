@@ -1,9 +1,5 @@
 package edu.edu7.Scala.Erorr
 
-import java.io.FileReader
-import java.io.FileNotFoundException
-import java.io.IOException
-
 object Error_Handling_S1 {           // Object
    def main(args: Array[String]) {   // Main Method
        

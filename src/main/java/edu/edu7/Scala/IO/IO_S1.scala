@@ -1,7 +1,5 @@
 package edu.edu7.Scala.IO
 
-import java.io._
-
 object IO_S1 {
    def main(args: Array[String]) {
       val writer = new PrintWriter(new File("test1.txt" ))

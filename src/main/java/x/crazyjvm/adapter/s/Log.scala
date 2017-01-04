@@ -1,7 +1,5 @@
 package x.crazyjvm.adapter.s
 
-import java.util.logging.Level
-
 /**
  * Created by chenchao on 15/10/12.
  */

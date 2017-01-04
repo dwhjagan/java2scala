@@ -1,7 +1,5 @@
 package edu.edu7.Scala.Function
 
-import java.util.Date
-
 object Fun_Partially_Applied {
     
  //---------------------------------------------------------

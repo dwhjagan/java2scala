@@ -1,7 +1,5 @@
 package valtech
 
-import java.io.{BufferedReader, InputStream, InputStreamReader}
-
 import scala.util.Try
 
 object Solution12 extends App {
