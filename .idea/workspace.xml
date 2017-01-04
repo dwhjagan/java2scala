@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2602d5c-1724-4cbf-8985-20b1af6f05e4" name="Default" comment="sdsf">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/valtechex/compression.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/valtechex/pangrams.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/valtechex/staircase.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Erorr/Error_Handling_S1.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Erorr/Error_Handling_S1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Error_Handling/Exception_Handling_s1.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Error_Handling/Exception_Handling_s1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Error_Handling/Exception_Handling_s2.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Error_Handling/Exception_Handling_s2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Function/Fun_Partially_Applied.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Function/Fun_Partially_Applied.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/IO/IO_S1.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/IO/IO_S1.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Trait/Ex9.scala" afterPath="$PROJECT_DIR$/src/main/java/edu/edu7/Scala/Trait/Ex9.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/valtech/palindrome01.scala" afterPath="$PROJECT_DIR$/src/main/java/valtech/palindrome01.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/crazyjvm/adapter/s/Log.scala" afterPath="$PROJECT_DIR$/src/main/java/x/crazyjvm/adapter/s/Log.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/x/crazyjvm/fileio.scala" afterPath="$PROJECT_DIR$/src/main/java/x/crazyjvm/fileio.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/note">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -909,12 +895,12 @@
       <workItem from="1483441336830" duration="392000" />
       <workItem from="1483442024743" duration="30547000" />
       <workItem from="1483519280287" duration="771000" />
-      <workItem from="1483522342722" duration="266000" />
+      <workItem from="1483522342722" duration="3085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74848000" />
+    <option name="totallyTimeSpent" value="77667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -926,7 +912,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="694" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="694" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1379,7 +1365,7 @@
     <entry file="file://$PROJECT_DIR$/note">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
           <folding />
         </state>
       </provider>
