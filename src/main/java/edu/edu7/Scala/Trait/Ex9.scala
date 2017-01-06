@@ -1,5 +1,8 @@
 package edu.edu7.Scala.Trait
 
+import java.io.PrintWriter
+import java.util.Date;
+
 trait Logger9 {
   println("Constructing Logger9")
   def log(msg: String)

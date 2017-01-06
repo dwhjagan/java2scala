@@ -1,10 +1,13 @@
-package edu.edu7.Scala.Function
+package edu.edu7.Scala.Function;
+import java.util.Date;
 
 object Fun_Partially_Applied {
     
  //---------------------------------------------------------
    def main(args: Array[String]) {
-     val date =  new Date
+     val date = {
+       new Date
+     }
       
       val logWithDateBound = log(date, _ : String)
 //--------------------------------------------------------- 
@@ -22,6 +25,9 @@ object Fun_Partially_Applied {
    def log(date: Date, message: String) = {
       println(date + "  ----  "+ message)
    }
+
+
+
 }
 
 

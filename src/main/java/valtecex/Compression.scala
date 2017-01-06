@@ -1,13 +1,11 @@
-package valtech
+package valtecex
 
-object Solution {
 
+object Compression {
   def compress(s: String): String = {
-
     def loop(
-               l: List[(Char, Int)],
-             acc: List[(Char, Int)] = Nil): List[(Char, Int)] = {
-
+              l: List[(Char, Int)],
+              acc: List[(Char, Int)] = Nil): List[(Char, Int)] = {
       val (h@(ch, n)) :: t = l
       t match {
         case Nil => h :: acc
@@ -16,10 +14,13 @@ object Solution {
       }
     }
 
-    loop(s.toList.map((_, 1)).reverse).map({ case (ch, n) => if (n > 1) s"$ch$n" else s"$ch" }).mkString("")
+    loop(s.toList.map((_, 1)).reverse).map({ case (ch, n) => if (n > 1)
+      s"$ch$n" else s"$ch" }).mkString("")
   }
 
   def main(args: Array[String]) {
     println(compress(readLine().trim))
+
   }
 }
+

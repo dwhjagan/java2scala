@@ -1,4 +1,4 @@
-package valtech
+package valtecex
 
 object Staircase extends App {
 

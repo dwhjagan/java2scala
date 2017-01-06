@@ -1,5 +1,4 @@
 edu/faq/nullobjectpattern1.class
-valtech/kseq.class
 edu/faq/RealCustomer.class
 edu/edu3/interface2.class
 com/construc/Boy.class
@@ -19,7 +18,6 @@ FirstProgram/stringclass/stringarray.class
 edu/faq/s89.class
 x/crazyjvm/command/j/Invoker.class
 edu/Edu2/EmployeeDemo.class
-valtech/conseq.class
 x/crazyjvm/ioc/j/DatabaseRepository.class
 edu/Edu2/Constructorex1.class
 x/crazyjvm/adapter/j/LoggerToLogAdapter.class
@@ -28,7 +26,6 @@ FirstProgram/FirstProgram/FreshJuice$FreshJuiceSize.class
 FirstProgram/loop/ifelseifclass.class
 modules/module5/generics/GoldenRules.class
 com/construc/methods/methodclass.class
-valtech/StdOut.class
 edu/faq/t1.class
 edu/edu3/staticclass.class
 edu/edu3/enumerator.class
@@ -39,7 +36,9 @@ edu/Edu5/k.class
 Encapsulation/Inheritance/My_Calculation.class
 FirstProgram/breakclass/arrayclass.class
 FirstProgram/stringclass/stringclass1.class
+valtecex/LongestCommonSubsequence.class
 FirstProgram/DiffDemo.class
+valtecex/ArrayBSearch.class
 FirstProgram/Dateclass/dateformat2.class
 modules/module3/randevent/RandEventListener.class
 x/crazyjvm/decorate/j/OutputStreamDecorator.class
@@ -56,7 +55,6 @@ x/crazyjvm/factory/j/Dog.class
 FirstProgram/FirstProgram/Puppy.class
 FirstProgram/Methodclass/ExampleMinNumber.class
 FirstProgram/stringclass/stringlength.class
-valtech/palindrom90.class
 x/crazyjvm/strategy/j/Multiply.class
 FirstProgram/Puppy1.class
 x/crazyjvm/ioc/j/UserService.class
@@ -73,15 +71,18 @@ FirstProgram/Dateclass/dateformat.class
 FirstProgram/RegularExpression/replace3.class
 modules/module1/Module1.class
 x/crazyjvm/lazyx/j/Component.class
+valtecex/kSubsequence.class
 com/construc/Noargs_param_constructorClass.class
 modules/module2/IntegerFinderTest$1.class
 modules/module4/util/MathUtil.class
 FirstProgram/Methodclass/ExampleOverloading.class
+valtecex/ClosestNumber.class
 x/crazyjvm/factory/j/AnimalFactory.class
 x/crazyjvm/value/j/Point.class
 modules/module5/generics/GenericUtils.class
 x/crazyjvm/nullvalue/j/NullSound.class
 modules/module4/TestNestedException.class
+valtecex/Subsequence.class
 x/crazyjvm/singleton/j/Cat.class
 modules/module3/TestEventListener.class
 FirstProgram/Methodclass/swappingExample.class
@@ -133,6 +134,7 @@ Encapsulation/interfacepkg/MammalInt.class
 modules/module5/generics/FriendFinder.class
 modules/module2/Rectangle.class
 edu/edu3/A.class
+valtecex/ex/sum.class
 FirstProgram/stringclass/stringclass12.class
 modules/module3/randevent/RandEventSource.class
 x/crazyjvm/factory/j/Animal.class
@@ -143,15 +145,18 @@ edu/faq/NullCustomer.class
 com/construc/defaultconstructor.class
 edu/faq/FactoryPatternDemo.class
 edu/Edu2/HelloYou.class
+valtecex/KSubsequenceNew.class
 FirstProgram/loop/caseclass.class
 FirstProgram/RegularExpression/replace4.class
 modules/module2/SuperStudy.class
+valtecex/ArrayElements.class
 x/crazyjvm/factory/j/Factory.class
 Encapsulation/Encapsulation/EncapTest.class
 com/interfaces/inter.class
 modules/module2/IntegerSearch.class
 modules/module5/generics/BinarySearchTest.class
 modules/module3/TestEventSource.class
+valtecex/ex/CompareTriplet.class
 com/interfaces/Animal.class
 edu/Edu2/firstprogram.class
 modules/module2/ConstructorChainingChild.class
@@ -179,6 +184,7 @@ FirstProgram/FirstProgram/FreshJuiceTest.class
 edu/Edu2/Pupage.class
 modules/module3/MySearchHelper.class
 FirstProgram/variable/Car.class
+valtecex/ArraySortVal.class
 x/crazyjvm/chain/j/Event.class
 x/crazyjvm/lazyx/j/Lazy.class
 x/crazyjvm/adapter/j/Logger.class
@@ -194,10 +200,12 @@ modules/module4/DateFormatChecker.class
 x/crazyjvm/chain/j/KeyboardHandler.class
 FirstProgram/loop/doclass.class
 edu/faq/Square.class
+valtecex/sum.class
 x/crazyjvm/strategy/j/Strategy.class
 com/interfaces/interface2.class
 com/construc/overloadingcontructor.class
 FirstProgram/charAtclass/returndoc.class
+valtecex/ex/Arraysum.class
 modules/module5/generics/KeyValuePair.class
 Encapsulation/interfacepkg/interfaceclass.class
 edu/edu3/com/constructor/constructor.class
