@@ -1,0 +1,106 @@
+[13:45:21] Rory Bryett: So the samza instructions are as follows, for bring up a job:
+
+Do 'yarn application -list'
+
+If the jobs don't exist change working directory to /opt/ipt-samza/scripts and run the following:
+
+./samza-wrapper.sh redeploy $application $version
+[13:45:42] Rory Bryett: the application will be ipt-mi-state-json-producer or ipt-mi-state-jdbc-sink
+[13:45:57 | Edited 13:45:55] Rory Bryett: and the version can be found by doing 'rpm -qa | grep $application'
+[13:46:26] Rory Bryett: the rpm version will correspond to the application version
+
+
+[hdfs@hdnam01 ~]$ yarn application -list
+16/10/26 12:50:11 INFO impl.TimelineClientImpl: Timeline service address: http://hnnaa02.np-ii-dat1-ciz1.ipt.ho.local:8188/ws/v1/timeline/
+16/10/26 12:50:11 INFO client.RMProxy: Connecting to ResourceManager at hnnaa02.np-ii-dat1-ciz1.ipt.ho.local/10.35.16.11:8050
+Total number of applications (application-types: [] and states: [SUBMITTED, ACCEPTED, RUNNING]):6
+                Application-Id      Application-Name        Application-Type        User           Queue                   State             Final-State           Progress                        Tracking-URL
+application_1474987480666_0984  np-ii-dat1-ciz1_ipt-ss-dataplatform-index-persistence-state-consumer_1                       Samza         samza       default                 RUNNING               UNDEFINED                0%  hsnam01.np-ii-dat1-ciz1.ipt.ho.local:47051
+application_1474987480666_0985  np-ii-dat1-ciz1_ipt-ss-dataplatform-cdc-persistence-state-producer_1                 Samza         samza      default                  RUNNING               UNDEFINED                   0%       hsnam01.np-ii-dat1-ciz1.ipt.ho.local:34858
+application_1474987480666_1048  samza-mi-json-producer_1                       Samza       samza         default                 RUNNING            UNDEFINED                    0% hsnam01.np-ii-dat1-ciz1.ipt.ho.local:38807
+application_1474987480666_1043  search_np-ii-dat1-ciz1_ipt-ss-dataplatform-cdc-persistence-state-producer_1                  Samza         samza       default                 RUNNING               UNDEFINED                0%  hsnam02.np-ii-dat1-ciz1.ipt.ho.local:58187
+application_1474987480666_1044  search_np-ii-dat1-ciz1_ipt-ss-dataplatform-index-persistence-state-consumer_1                Samza         samza       default                 RUNNING               UNDEFINED                0%  hsnam01.np-ii-dat1-ciz1.ipt.ho.local:53510
+application_1474987480666_1045  search_ipt-ss-search-elasticsearch-samza_1                   Samza         samza         default                 RUNNING             UNDEFINED                   0% hsnam02.np-ii-dat1-ciz1.ipt.ho.local:48138
+[hdfs@hdnam01 ~]$
+
+
+[hdfs@hdnam01 ~]$ rpm -qa | grep ipt-mi-state-json-producer
+ipt-mi-state-json-producers-rpm-0.48-1.noarch
+ipt-mi-state-json-producer-rpm-0.76-1.noarch
+[hdfs@hdnam01 ~]$
+
+./samza-wrapper.sh status $application $version
+
+./samza-wrapper.sh status ipt-mi-state-json-producer 0.76
+
+[hdfs@hdnam01 scripts]$ ./samza-wrapper.sh redeploy ipt-mi-state-json-producer 0.76
+APP ipt-mi-state-json-producer
+ARTIFACT ipt-mi-state-json-producer
+VERSION 0.76
+ERROR could not get JOB_NAME
+
+
+[hdfs@hdnam01 scripts]$ ./samza-wrapper.sh
+Error: No action defined
+samza-wrapper.sh: IPT wrapper to start and deploy Samza applications
+Usage:
+
+        samza-wrapper.sh (deploy|redeploy|undeploy|start|stop) Application_Name Application_Version
+[hdfs@hdnam01 scripts]$ 
+
+
+rpm -qa | grep ipt-mi-state-jdbc-sink
+
+[hdfs@hdnam01 bin]$ rpm -qa | grep ipt-mi-state-jdbc-sink
+ipt-mi-state-jdbc-sink-rpm-0.55-1.noarch
+[hdfs@hdnam01 bin]$
+
+./samza-wrapper.sh deploy ipt-mi-state-jdbc-sink 0.56
+
+./samza-wrapper.sh start ipt-mi-state-jdbc-sink 0.56
+
+yarn application -status application_1474987480666_1071
+
+
+./samza-wrapper.sh redeploy ipt-mi-state-jdbc-sink 0.64
+
+CSDP Deployment
+===============
+
+I think yum Try this sir
+
+rpm -qa | grep interp
+
+This will list the CID, CRS, BRP interpreters... Then do a yum remove (for each) and then do a yum install for each.... for example: the below (but obvioulsy, the commands wont exactly work because of the versions... update the versions in below example) and try.... i bet it resolves the issue?
+
+yum remove ipt-crs-interpreter-rpm-0.0.667-1.noarch & ipt-cid-interpreter-rpm-0.0.664-1.noarch & ipt-brp-interpreter-rpm-0.0.655-1.noarch -y
+
+yum install ipt-crs-interpreter-rpm-0.0.667-1.noarch & ipt-cid-interpreter-rpm-0.0.664-1.noarch & ipt-brp-interpreter-rpm-0.0.655-1.noarch -y
+
+
+
+[root@svcam01 ~]# rpm -qa | grep interp                               
+ipt-crs-storm-interpreter-rpm-0.0.1167-1.noarch
+ipt-cid-storm-interpreter-rpm-1.1057-1.noarch
+ipt-brp-storm-interpreter-rpm-0.0.1272-1.noarch
+[root@svcam01 ~]#
+
+mnsam01 - ambari (listening on localhost:8080)
+
+[root@hdnam01 ~]# cd /etc/ipt-mi-state-json-producer/scripts/0.76/
+[root@hdnam01 0.76]# ./samza-wrapper.sh redeploy
+
+https://confluence.ipttools.info/display/BRPS/Restoring+normal+operations+after+Hadoop+failures
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=78266528
+
+Job to build MI Solution Release for SSZ
+========================================
+[16:05:35] Rory Bryett: djmtzm05
+[16:05:36] Rory Bryett: http://localhost:8085/iias/job/SS2-Application-Version-MI/
+
+
+Job to deploy latest MI release in SSZ
+======================================
+[15:54:30] Rory Bryett: sjmem01
+[15:54:31] Rory Bryett: http://localhost:8086/service/job/SS2_DEPLOY_MNG-INF/

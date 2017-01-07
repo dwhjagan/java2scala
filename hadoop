@@ -1,0 +1,17 @@
+
+$ hadoop namenode -format
+$ start-dfs.sh
+$ $HADOOP_HOME/bin/hadoop fs -ls <args>
+
+$ mkdir input
+$ cp $HADOOP_HOME/*.txt input
+$ ls -l input
+
+$ $HADOOP_HOME/bin/hadoop fs -mkdir /user/input
+$ $HADOOP_HOME/bin/hadoop fs -put /home/file.txt /user/input
+$ $HADOOP_HOME/bin/hadoop fs -ls /user/input
+
+$ $HADOOP_HOME/bin/hadoop fs -cat /user/output/outfile
+$ $HADOOP_HOME/bin/hadoop fs -get /user/output/ /home/hadoop_tp/
+$ stop-dfs.sh
+

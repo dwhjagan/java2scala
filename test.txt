@@ -1,1 +1,85 @@
-Hello Scala
+[hdfs@hdnam01 ~]$  hadoop fs -cat /apps/MI/stream/person/*/year=2016/month=12/day=02/hour=16/*.json | grep 247200
+
+{"message_id":"CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:41.677994","lnd_datetime":"2016-12-02T16:13:00.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247200","rec_hash_value":"48d273e0d26779780ea1cc2c860f56b230080df9","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:12:41.677994"}
+{"message_id":"CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:41.677994","lnd_datetime":"2016-12-02T16:13:00.000Z","person_hk":"356e1b73bb066ec24a2b9ab4063866faaeca12cc","record_source":"IPT","person_handle_id":"CID_PEOPLE_247200"}
+{"message_id":"CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:41.677994","lnd_datetime":"2016-12-02T16:13:00.000Z","lnk_person_idntty_hk":"0a0307b5173f674135acbeded5cd876d89bc7e0e","record_source":"IPT","person_handle_id":"CID_PEOPLE_247200","identity_handle_id":"CID_PEOPLE_247200"}
+{"message_id":"CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:41.677994","lnd_datetime":"2016-12-02T16:13:00.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247200","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+[hdfs@hdnam01 ~]$
+
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CID_PEOPLE_247200
+CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON{"internal_handle":{"unique_identifier":"66757de9c13c92008c6dd2166bf965171298894b1b8179258fb3e48c7bb4b7a4","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247200"},"person_space":"IPT","created":"2016-12-02T16:12:41.677994","created_by":null,"identity_handles":[{"unique_identifier":"66757de9c13c92008c6dd2166bf965171298894b1b8179258fb3e48c7bb4b7a4","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247200"}]}
+^CConsumed 5148 messages
+
+[hdfs@hdnam01 bin]$
+
+
+[hdfs@hdnam01 ~]$  hadoop fs -cat /apps/MI/stream/person/*/year=2016/month=12/day=02/hour=16/*.json | grep 247204
+
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:42.149672","lnd_datetime":"2016-12-02T16:13:00.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","rec_hash_value":"e4021cc4b79d2f90e012b99e6de284df09202eee","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:12:42.149672"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:14:08.643486","lnd_datetime":"2016-12-02T16:14:30.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","rec_hash_value":"3b9647699f69d73423fa874f3a9861e3d4fc1963","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:14:08.643486"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:42.149672","lnd_datetime":"2016-12-02T16:13:00.000Z","person_hk":"355484b551c41089d763a9e18cd3bb430411eae5","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:14:08.643486","lnd_datetime":"2016-12-02T16:14:30.000Z","person_hk":"355484b551c41089d763a9e18cd3bb430411eae5","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:42.149672","lnd_datetime":"2016-12-02T16:13:00.000Z","lnk_person_idntty_hk":"0092f06abbf27bf870cfd52d977d5cb4810f5665","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","identity_handle_id":"CID_PEOPLE_247204"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:14:08.643486","lnd_datetime":"2016-12-02T16:14:30.000Z","lnk_person_idntty_hk":"0092f06abbf27bf870cfd52d977d5cb4810f5665","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","identity_handle_id":"CID_PEOPLE_247204"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:14:08.643486","lnd_datetime":"2016-12-02T16:14:30.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+{"message_id":"CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:12:42.149672","lnd_datetime":"2016-12-02T16:13:00.000Z","record_source":"IPT","person_handle_id":"CID_PEOPLE_247204","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+[hdfs@hdnam01 ~]$
+
+
+[hdfs@hdnam01 ~]$  hadoop fs -cat /apps/MI/stream/person/*/year=2016/month=12/day=02/hour=16/*.json | grep CRS_NAMED_PERSON_50_247236
+
+{"message_id":"CRS_NAMED_PERSON_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:12.874125","lnd_datetime":"2016-12-02T16:13:30.000Z","record_source":"IPT","person_handle_id":"CRS_NAMED_PERSON_50_247236","rec_hash_value":"252dae60646e8449a11dd1f7f91615275b722e12","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:13:12.874125"}
+{"message_id":"CRS_NAMED_PERSON_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:12.874125","lnd_datetime":"2016-12-02T16:13:30.000Z","person_hk":"a2e78d1c1f05065ba79bf9988df9b51717fa7e67","record_source":"IPT","person_handle_id":"CRS_NAMED_PERSON_50_247236"}
+{"message_id":"CRS_NAMED_PERSON_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:12.874125","lnd_datetime":"2016-12-02T16:13:30.000Z","lnk_person_idntty_hk":"77ce06d46a4c622e157785d8cc53b8822f9fbc5b","record_source":"IPT","person_handle_id":"CRS_NAMED_PERSON_50_247236","identity_handle_id":"CRS_NAMED_PERSON_50_247236"}
+{"message_id":"CRS_NAMED_PERSON_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:12.874125","lnd_datetime":"2016-12-02T16:13:30.000Z","record_source":"IPT","person_handle_id":"CRS_NAMED_PERSON_50_247236","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+[hdfs@hdnam01 ~]$
+
+
+[hdfs@hdnam01 ~]$  hadoop fs -cat /apps/MI/stream/person/*/year=2016/month=12/day=02/hour=16/*.json | grep CRS_SPONSOR_50_247236
+
+{"message_id":"CRS_SPONSOR_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:51.552938","lnd_datetime":"2016-12-02T16:14:00.000Z","record_source":"IPT","person_handle_id":"CRS_SPONSOR_50_247236","rec_hash_value":"b642e272afbaa95d1607ea979fad59aff744f830","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:13:51.552938"}
+{"message_id":"CRS_SPONSOR_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:51.552938","lnd_datetime":"2016-12-02T16:14:00.000Z","person_hk":"013d8a4bf817c8033cd680521fba2324b1f00e72","record_source":"IPT","person_handle_id":"CRS_SPONSOR_50_247236"}
+{"message_id":"CRS_SPONSOR_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:51.552938","lnd_datetime":"2016-12-02T16:14:00.000Z","lnk_person_idntty_hk":"7df7806e5a6a727e10b826783f3713d75aa048a9","record_source":"IPT","person_handle_id":"CRS_SPONSOR_50_247236","identity_handle_id":"CRS_SPONSOR_50_247236"}
+{"message_id":"CRS_SPONSOR_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:51.552938","lnd_datetime":"2016-12-02T16:14:00.000Z","record_source":"IPT","person_handle_id":"CRS_SPONSOR_50_247236","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+[hdfs@hdnam01 ~]$
+
+
+[hdfs@hdnam01 ~]$  hadoop fs -cat /apps/MI/stream/person/*/year=2016/month=12/day=02/hour=16/*.json | grep CRS_LOCAL_ALERT_50_247236
+{"message_id":"CRS_LOCAL_ALERT_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:22.927702","lnd_datetime":"2016-12-02T16:13:30.000Z","record_source":"IPT","person_handle_id":"CRS_LOCAL_ALERT_50_247236","rec_hash_value":"8ad0e67b7c2eb658022b8c82d66e52a8d07f692a","src_person_space":"IPT","src_created_datetime":"2016-12-02T16:13:22.927702"}
+{"message_id":"CRS_LOCAL_ALERT_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:22.927702","lnd_datetime":"2016-12-02T16:13:30.000Z","person_hk":"f1815aaf502c71454bb2f68b419af260e0c8ecaf","record_source":"IPT","person_handle_id":"CRS_LOCAL_ALERT_50_247236"}
+{"message_id":"CRS_LOCAL_ALERT_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:22.927702","lnd_datetime":"2016-12-02T16:13:30.000Z","lnk_person_idntty_hk":"b06aa53e83b74d109611d154c2c7e0249c53e315","record_source":"IPT","person_handle_id":"CRS_LOCAL_ALERT_50_247236","identity_handle_id":"CRS_LOCAL_ALERT_50_247236"}
+{"message_id":"CRS_LOCAL_ALERT_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON","bsn_event_datetime":"2016-12-02T16:13:22.927702","lnd_datetime":"2016-12-02T16:13:30.000Z","record_source":"IPT","person_handle_id":"CRS_LOCAL_ALERT_50_247236","rec_hash_value":"8610e8e092d143f2356d1fa85b45abcad81fb19c","person_handle_visibility":"DEFAULT"}
+[hdfs@hdnam01 ~]$
+
+
+
+[palanisg@hdnam01 ~]$ sudo su - hdfs
+[hdfs@hdnam01 ~]$ cd /usr/hdp/current/kafka-broker/bin
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json_dlq --property print.key=true --from-beginning
+^C[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:81 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CID_PEOPLE_246853
+CID_PEOPLE_246853~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON{"internal_handle":{"unique_identifier":"945997b40010cc6e34648db5b8cd19e8b69b696071d180ec7eaf6a3a93fb0fa2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_246853"},"person_space":"IPT","created":"2016-12-02T12:40:44.406960","created_by":null,"identity_handles":[{"unique_identifier":"945997b40010cc6e34648db5b8cd19e8b69b696071d180ec7eaf6a3a93fb0fa2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_246853"}]}
+^CConsumed 5121 messages
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CID_PEOPLE_247200
+CID_PEOPLE_247200~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON{"internal_handle":{"unique_identifier":"66757de9c13c92008c6dd2166bf965171298894b1b8179258fb3e48c7bb4b7a4","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247200"},"person_space":"IPT","created":"2016-12-02T16:12:41.677994","created_by":null,"identity_handles":[{"unique_identifier":"66757de9c13c92008c6dd2166bf965171298894b1b8179258fb3e48c7bb4b7a4","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247200"}]}
+^CConsumed 5148 messages
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CID_PEOPLE_247204
+CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON{"internal_handle":{"unique_identifier":"864d6c7da35b2c3a2fd6c0f9240bf3ab5e68279ca5228a4c1ffc0c730acab7a2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247204"},"person_space":"IPT","created":"2016-12-02T16:12:42.149672","created_by":null,"identity_handles":[{"unique_identifier":"864d6c7da35b2c3a2fd6c0f9240bf3ab5e68279ca5228a4c1ffc0c730acab7a2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247204"}]}
+CID_PEOPLE_247204~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON{"internal_handle":{"unique_identifier":"864d6c7da35b2c3a2fd6c0f9240bf3ab5e68279ca5228a4c1ffc0c730acab7a2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247204"},"person_space":"IPT","created":"2016-12-02T16:14:08.643486","created_by":null,"identity_handles":[{"unique_identifier":"864d6c7da35b2c3a2fd6c0f9240bf3ab5e68279ca5228a4c1ffc0c730acab7a2","visibility_marker":"DEFAULT","interface_identifier":"CID_PEOPLE_247204"}]}
+^CConsumed 5162 messages
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CRS_NAMED_PERSON_50_247236
+CRS_NAMED_PERSON_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON        {"internal_handle":{"unique_identifier":"1a32be34b55a0e52a8670b46f059c88e9793360e49822e5378ef2a2683790c53","visibility_marker":"DEFAULT","interface_identifier":"CRS_NAMED_PERSON_50_247236"},"person_space":"IPT","created":"2016-12-02T16:13:12.874125","created_by":null,"identity_handles":[{"unique_identifier":"1a32be34b55a0e52a8670b46f059c88e9793360e49822e5378ef2a2683790c53","visibility_marker":"DEFAULT","interface_identifier":"CRS_NAMED_PERSON_50_247236"}]}
+^CConsumed 5175 messages
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CRS_SPONSOR_50_247236
+CRS_SPONSOR_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON     {"internal_handle":{"unique_identifier":"e40763d42bdf35d70ccf5750ea12408ab33304617bc54c8245b5e63f14b24de2","visibility_marker":"DEFAULT","interface_identifier":"CRS_SPONSOR_50_247236"},"person_space":"IPT","created":"2016-12-02T16:13:51.552938","created_by":null,"identity_handles":[{"unique_identifier":"e40763d42bdf35d70ccf5750ea12408ab33304617bc54c8245b5e63f14b24de2","visibility_marker":"DEFAULT","interface_identifier":"CRS_SPONSOR_50_247236"}]}
+^CConsumed 5175 messages
+
+[hdfs@hdnam01 bin]$ ./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true --from-beginning | grep CRS_LOCAL_ALERT_50_247236
+CRS_LOCAL_ALERT_50_247236~uk.gov.ipt.identitymanagement.domain.v2.Person~JSON {"internal_handle":{"unique_identifier":"6c4d5fa21bc45f3994d50e6f3c6fda573ee4141cc179bad6c00fe33953f1adab","visibility_marker":"DEFAULT","interface_identifier":"CRS_LOCAL_ALERT_50_247236"},"person_space":"IPT","created":"2016-12-02T16:13:22.927702","created_by":null,"identity_handles":[{"unique_identifier":"6c4d5fa21bc45f3994d50e6f3c6fda573ee4141cc179bad6c00fe33953f1adab","visibility_marker":"DEFAULT","interface_identifier":"CRS_LOCAL_ALERT_50_247236"}]}
+^CConsumed 5175 messages
+
+[hdfs@hdnam01 bin]$

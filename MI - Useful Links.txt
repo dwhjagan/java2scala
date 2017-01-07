@@ -1,0 +1,600 @@
+https://jira.ipttools.info/browse/MIBI-216?jql=project%20%3D%20MIBI%20AND%20assignee%20in%20(currentUser())%20ORDER%20BY%20created%20DESC
+
+Wifi-Cwystpw1th
+
+Immigration Identity Assurance System (IIAS)
+
+Common Data Platform (CDP) 
+ 
+Person Centric View (PCV)
+
+IPT	IPT- Immigration Platform Technologies
+CID	CID - Case Information Database
+BRP	BRP - Biometric Residence Permissions
+CRS	CRS - Central Reference System
+SIS	SIS - Shared Image Store
+IABS	IABS - Immigration and Asylum Biometric System
+IDECIDE	I-Decide
+IADB	Initial Accommodation Database (IADB)
+ASYS	ASYS - Asylum Support
+CDP	CDP - BRP-F Common Data Platform
+IDENT1	Ident1
+POL	Post Office Livescan
+BRS	Biometric Recording Station
+
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=76677981
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=74744867
+
+https://confluence.ipttools.info/display/AS/IPT+Microservices+-+Event+History+Services
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=76120435
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=75465933
+
+https://confluence.ipttools.info/display/~rory.bryett/MI+Continuous+Integration+Solution
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=76682837
+
+https://confluence.ipttools.info/display/AD/ASYS+Ingestion+with+Abstraction+Layer
+
+https://us-west-2.console.aws.amazon.com/console/home?region=us-west-2#
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=75465585
+
+https://confluence.ipttools.info/display/AD/IPT+-+Release+xx+-+IPT+Business+Intelligence+%28BI%29+Services+-+DRAFT
+
+https://confluence.ipttools.info/pages/viewpage.action?pageId=73189804
+
+Jump Box
+========
+NP
+185.40.8.186
+
+ST
+37.26.95.162
+
+Password
+Raja@121213!
+
+
+ssh -v -L 21119:46.51.206.4:8080 -N palanisg@sjmem01.npa-tlg1-emzo.ipt.ho.local
+
+ssh -L 21119:localhost:8080 palanisg@sjmem01.npa-tlg1-emzo.ipt.ho.local
+
+ssh -v -L 9105:djmtzm05:8080 -N palanisg@djmtzm05.st-tooling1.ipt.local
+
+ssh -L 43315:localhost:8080 palanisg@djmtzm01.st-tooling1.ipt.local
+
+ssh -L 24225:localhost:8080 palanisg@sjmem01.npa-tlg1-emzo.ipt.ho.local
+
+=======================
+
+MIBI-136
+
+ 
+
+POST CASE : Create SD
+
+ 
+
+http://admin:admin@localhost:8161/api/message/USERS.cid-in-cases?type=queue
+
+ 
+
+ 
+
+{
+
+  "tablename" : "CASES",
+
+  "operation" : "INSERT",
+
+  "newval" : {
+
+    "id" : 800900,
+
+    "lead_case_id" : null,
+
+    "cg_id" : 1,
+
+    "locs_id" : 1,
+
+    "allink_id" : 1,
+
+    "ah_id" : 1,
+
+    "cst_sdv_code" : "cstSdvCode",
+
+    "cst_sdv_value" : "ICWT400001",
+
+    "date_of_application" : "2015-09-11",
+
+    "expiry_dte" : "2025-09-11",
+
+    "priority_sdv_code" : "prioritySdvCode",
+
+    "priority_sdv_value" : "prioritySdvValue",
+
+    "ext_sys_code" : "extSysCode",
+
+    "icfn_card_prd_ind" : "icfnCardPrdInd",
+
+    "cc_sdv_code" : "ccSdvCode",
+
+    "cc_sdv_value" : "ccSdvValue",
+
+    "scat_sdv_code" : "scatSdvCode",
+
+    "scat_sdv_value" : "scatSdvValue",
+
+    "usr_created" : "userCreated",
+
+    "dte_created" : "2015-02-24",
+
+    "usr_changed" : "userChanged",
+
+    "dte_changed" : "2015-09-11"
+
+  },
+
+  "oldval" : {}
+
+}
+
+ 
+
+OR
+ 
+
+INSERT INTO cases( id, lead_cas_id, cg_id, locs_id, ah_id, cst_sdv_code, cst_sdv_value, date_of_application, expiry_dte, priority_sdv_code, priority_sdv_value, ext_sys_code, icfn_card_prd_ind, cc_sdv_code, cc_sdv_value, scat_sdv_code, scat_sdv_value, usr_created, dte_created, usr_changed, dte_changed) VALUES ( {{AUTO.CASE_ID}}, NULL, NULL, NULL, NULL, 'CST', 'DECASO', '2015-07-17', '2015-07-17', NULL, NULL, NULL, NULL, 'CC', NULL, 'SCAT', NULL, '', '2015-09-17', NULL, NULL) ;
+
+ 
+
+ 
+
+GET SD
+
+/ipt-ss-service-delivery-services/service-deliveries/externalHandleSpace/{{LOCAL.HANDLE_SPACE}}/externalHandleValue/{{AUTO.CASE_ID}}
+
+ 
+
+ 
+
+GET Events
+
+/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_{{AUTO.CASE_ID}}
+
+ 
+
+ 
+
+PUT EVENT
+ 
+/eventhistory-persistence-services/v2/event/
+
+  
+
+{
+
+    "internalHandle": {
+
+        "unique_identifier": "{{AUTO.UniqueID}}",
+
+        "visibility_marker": "DEFAULT",
+
+        "interface_identifier": "{{AUTO.InterfaceID}}"
+
+    },   
+
+    "externalHandle": {
+
+        "unique_identifier": "ex",
+
+        "handle_value": "some-external-handle",
+
+        "handle_space": "BRP_BIOMETRIC"
+
+    },
+
+    "serviceDeliveryHandle": {
+
+        "unique_identifier": "{{SD_UniqueID}}",
+
+        "visibility_marker": "DEFAULT",
+
+        "interface_identifier": "{{SD_ID}}"
+
+    },
+
+    "eventDate": "2016-02-24T11:28:50.373",
+
+    "created": "2016-12-24T11:28:50.373",
+
+    "eventType": "FULFILLMENT",
+
+    "ipfVertical": "FULFILLMENT",
+
+    "serviceDeliveryType": "IA",
+
+    "involvementId": 3848,
+
+    "taskId": 1,
+
+    "taskName": "some name",
+
+    "linkedEvents": "13120, 13121",
+
+    "eventAttributes": [{
+
+        "type": "FIRST_NAME",
+
+        "value": "Dan",
+
+        "description": "First Name of the Person",
+
+        "groupId": 1452768549222,
+
+        "groupType": "FulfilmentAction",
+
+        "dataType": "String",
+
+        "associationId": 1,
+
+        "associationType": "someAssociation"
+
+    }],
+
+    "createdBy": "some-user-id"
+
+}
+
+GET Events 
+
+/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_{{AUTO.CASE_ID}}
+
+=======================================
+Happy to be corrected (wanted to share details for Landing DB). Please see me for the password and can I ask Andy/Raja to change the Tunnel for svram01
+(ciz & SSZ) to 5433 (local port mapping) rather than 5432 so it doesnt conflict with hrpam01 (and also setup a connection in PG Admin).
+
+MI.DB.LANDING.HOST=svram01.np-ii-dat1-ciz1.ipt.ho.local
+MI.DB.LANDING.PORT=5432
+MI.DB.LANDING.USER=ipt_mi_user
+MI.DB.LANDING.PASSWORD=secret
+MI.DB.LANDING.DB=mi_warehouse
+
+[13:38:38] Haithem Jarraya: @Raja, @Andy @mubs, a handy way to find which job is running in yarn, yarn application —list command
+[13:38:42 | Edited 13:38:42] Haithem Jarraya: example of output in CIZ
+[13:38:46] Haithem Jarraya: [jarrayah@hdnam01 ~]$ sudo su - hdfs
+[hdfs@hdnam01 ~]$ yarn application --list
+16/09/19 12:37:49 INFO impl.TimelineClientImpl: Timeline service address: http://hnnaa02.np-ii-dat1-ciz1.ipt.ho.local:8188/ws/v1/timeline/
+16/09/19 12:37:49 INFO client.RMProxy: Connecting to ResourceManager at hnnaa02.np-ii-dat1-ciz1.ipt.ho.local/10.35.16.11:8050
+Total number of applications (application-types: [] and states: [SUBMITTED, ACCEPTED, RUNNING]):9
+                Application-Id     Application-Name     Application-Type       User      Queue              State        Final-State        Progress                        Tracking-URL
+application_1473872441122_0154 samza-mi-json-producer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam02.np-ii-dat1-ciz1.ipt.ho.local:44522
+application_1473872441122_0150 ipt-ss-dataplatform-index-persistence-state-consumer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam02.np-ii-dat1-ciz1.ipt.ho.local:57360
+application_1473872441122_0152 search_ipt-ss-search-elasticsearch-samza_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam01.np-ii-dat1-ciz1.ipt.ho.local:49319
+application_1473872441122_0153 ipt-ss-dataplatform-cdc-persistence-state-producer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam01.np-ii-dat1-ciz1.ipt.ho.local:58127
+application_1473872441122_0148 search_ipt-ss-dataplatform-cdc-persistence-state-producer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam01.np-ii-dat1-ciz1.ipt.ho.local:39729
+
+application_1473872441122_0149 search_ipt-ss-dataplatform-index-persistence-state-consumer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam03.np-ii-dat1-ciz1.ipt.ho.local:40154
+application_1473872441122_0138 samza-mi-json-producer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam01.np-ii-dat1-ciz1.ipt.ho.local:41435
+application_1473872441122_0139 ipt-ss-dataplatform-index-persistence-state-consumer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam02.np-ii-dat1-ciz1.ipt.ho.local:50449
+application_1473872441122_0140 ipt-ss-dataplatform-cdc-persistence-state-producer_1                Samza      samza    default            RUNNING          UNDEFINED              0% hsnam02.np-ii-dat1-ciz1.ipt.ho.local:46462
+[13:38:56] Haithem Jarraya: you can see our json_producer job is running
+[13:39:11] Haithem Jarraya: along with some search jobs and the state producer jobs
+[13:39:30] Haithem Jarraya: state producer jobs, will create a state of [event|servicedelivery] in MP format
+[13:39:37] Haithem Jarraya: and then produces it to state topic
+
+[13:39:46] Haithem Jarraya: which is picked up by our job
+[13:39:55] Haithem Jarraya: samza-mi-json-producer_1
+yes, please update your documentation, this will be the usual flow and first thing to check
+
+Raised
+======
+https://jira.ipttools.info/browse/MIBI-296
+https://jira.ipttools.info/browse/MIBI-297
+
+JIRA Filter
+===========
+https://jira.ipttools.info/browse/MIBI-158?jql=project%20%3D%20MIBI%20AND%20assignee%20in%20(currentUser())%20AND%20status%20!%3D%20Done%20ORDER%20BY%20created%20DESC
+
+project = MIBI AND assignee in (currentUser()) AND status != Done ORDER BY created DESC
+
+
+[15:52:55] Mubsher Hussain: FYI : For future knowledge:
+
+Can we cover CID Identity and CRS Identity pleaes:
+
+CID Identity is created from CID.PERSON Insert.... CRS Identity is created from CRS.NamedPerson Insert.
+
+Here is the REST EndPoint (if you ever need to assert) that CRS Person ingested nicely:
+
+/identitymanagement-services/person/internalHandle/CRS_NAMED_PERSON_50_{{AUTO.ID}}
+
+CRS Person Identity
+
+/identitymanagement-services/identity/internalHandle/CRS_NAMED_PERSON_50_{{AUTO.ID}}
+
+CID Person Identity
+
+/identitymanagement-services/identity/internalHandle/CID_PEOPLE_{{AUTO.PERSON_ID}}
+
+CID Person
+
+/identitymanagement-services/person/internalHandle/CID_PEOPLE_{{AUTO.PERSON_ID}}
+
+I THINK a CRS.Sponsor also creates an Identity
+
+/identitymanagement-services/organisation/internalHandle/CRS_SPONSOR_50_{{AUTO.ID}}
+[15:53:07] Mubsher Hussain: Please make a note of the above and/or add to the automation ticket for record.
+
+			
+					
+Ref Data CASES
+==============
+CDSP-620
+CDSP-738
+CDSP-805
+cdsp-254
+cdsp-868
+cases-1966
+cases-1950
+
+Strom Logs
+==========
+CIZ
+hsnam01
+hsnam02
+hsnam03
+
+SSZ
+hdnam01
+hdnam02
+hdnam03
+
+CIZ
+====
+/usr/hdp/current/kafka-broker/bin
+
+./kafka-topics.sh --zookeeper hdnam01:2181 --list
+
+./kafka-topics.sh --zookeeper hdnam01:2181 --list | grep _state_json
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_event_state_json --property print.key=true --from-beginning | grep 211807
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_event_state_json_dlq --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json --property print.key=true 
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_person_state_json_dlq --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_identity_state_json --property print.key=true 
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_identity_state_json_dlq --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_servicedelivery_state_json --property print.key=true 
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_servicedelivery_state_json_dlq --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_organisation_state_json --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_individual_state_json --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ciz1_address_state_json --property print.key=true --from-beginning
+
+SSZ
+===
+/usr/hdp/current/kafka-broker/bin
+
+./kafka-topics.sh --zookeeper hdnam01:2181 --list
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ssz1_event_state_json --property print.key=true --from-beginning
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ssz1_person_state_json --property print.key=true 
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ssz1_identity_state_json --property print.key=true 
+
+./kafka-console-consumer.sh --zookeeper hdnam01:2181 --topic np-ii-dat1-ssz1_servicedelivery_state_json --property print.key=true 
+
+Data Ingestion Specifications
+==============================
+https://confluence.ipttools.info/display/BRPS/Data+Ingestion+Specifications
+
+https://confluence.ipttools.info/display/IPT/Automation+Testing+Work+Log
+ 
+ 
+Code Review
+===========
+ 
+DateHelper.java - toLocaleDateTime() returns null when any failures on date formatting.
+
+PersonPostgresSink.java - SQL Statements should be moved to configuration files.
+
+PostgresSink.java - Data source default values are hardcoded and it is not easy to manage and use.
+
+IdentityPostgresSink.java - prepared statements are not closed properly which will cause issues.
+
+EventPostgresSink.java - bannedAttributes should be from configuration files else hard to include/exclude new properties.
+
+Code review ticket https://jira.ipttools.info/browse/MIBI-437
+
+
+
+There is no such event called below in confluence
+
+ASIA_GATEKEEPER_CHCK_APPLICANT
+ASIA_REGISTRATION_ACTIVITY
+ASIA_SCREENING_CHCK_APPLICANT
+ASIA-NC_REGISTRATION_ACTIVITY
+CHECK_AND_VALIDATE
+COMPLIANCE
+DEPENDENT_CHECK
+MAIN_CHECK
+REGISTRATION
+SERVICE_COMPLETE
+
+
+Missing events in tests
+
+S4_MANAGE_PARTY / S95_MANAGE_PARTY
+ASAPP_S95_GEN_RFI / ASAPP_S4_GEN_RFI
+ASAPP_S4_CV / ASAPP_S95_CV
+ASAPP_S4_DC / ASAPP_S95_DC
+PRINTED_AND_SENT
+
+PAYCRD_REQ_FSTPAYSCHED_CREATED
+FIRST_PAY_SCHED_UPDATED
+REGULAR_PAY_SCHED_UPDATED
+NEW_ONEOFF_PAY_CREATED
+REGULAR_PAY_STOPPED
+NEW_PAY_CARD_DISPATCHED
+
+REQUEST_DISPERSAL_TO_ACCOM
+RECORD_REVIEW_ACCOM_PROPOSAL
+CONF_DISPERSAL_TOACCOM_OUTCOME
+ACCOM_AMENDED_STOPPED
+
+Hadoop UI - hnnam02
+
+mnsam01 - Ambari (listening on localhost:8080)
+
+https://jira.ipttools.info/browse/MIBI-438
+https://jira.ipttools.info/browse/MIBI-297
+
+[16:04:49] Rory Bryett: 
+can people test access to aws dev please
+
+miim01.npa-mi-tlg-devmi1.ipt.ho.local
+miim02.npa-mi-tlg-devmi1.ipt.ho.local
+miim03.npa-mi-tlg-devmi1.ipt.ho.local
+miim04.npa-mi-tlg-devmi1.ipt.ho.local
+
+hnnim01.npa-mi-tlg-devmi1.ipt.ho.local
+hnnim02.npa-mi-tlg-devmi1.ipt.ho.local
+
+hdnim01.npa-mi-tlg-devmi1.ipt.ho.local
+hdnim02.npa-mi-tlg-devmi1.ipt.ho.local
+hdnim03.npa-mi-tlg-devmi1.ipt.ho.local
+
+hywim01.npa-mi-tlg-devmi1.ipt.ho.local
+hywim02.npa-mi-tlg-devmi1.ipt.ho.local
+hywim03.npa-mi-tlg-devmi1.ipt.ho.local
+
+hkfim01.npa-mi-tlg-devmi1.ipt.ho.local
+hkfim02.npa-mi-tlg-devmi1.ipt.ho.local
+hkfim03.npa-mi-tlg-devmi1.ipt.ho.local
+
+amqim01.npa-mi-tlg-devmi1.ipt.ho.local
+[16:05:16] Rory Bryett: you want to proxy via the skyscape-npa jumpbox, 
+i can provide you all with the ipaddress of this if you come over
+
+https://jira.ipttools.info/browse/MIBI-467
+
+https://jira.ipttools.info/browse/EBSAD-36478
+
+
+Postgres
+========
+
+Number of active connections 
+-------------------------------
+select * from pg_stat_activity;
+
+Kill connection(s)
+-------------------
+Query pg_stat_activity and get the pid values you want to kill, then issue SELECT pg_terminate_backend(pid int) to them.
+
+PostgreSQL 9.2 and above:
+
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'TARGET_DB'
+  AND pid <> pg_backend_pid();
+  
+PostgreSQL 9.1 and below:
+
+SELECT pg_terminate_backend(pg_stat_activity.procpid)
+FROM pg_stat_activity
+WHERE pg_stat_activity.datname = 'TARGET_DB'
+  AND procpid <> pg_backend_pid();
+
+Version
+--------
+select version();
+
+https://jira.ipttools.info/browse/IIAS-19645
+
+Check DB Permissions
+--------------------
+SELECT 
+        schemaname||'.'||tablename 
+    FROM 
+        pg_tables 
+    WHERE 
+        has_table_privilege (
+            'ipt_mi_user',
+            schemaname||'.'||tablename, 
+            'INSERT'
+         ) 
+    AND 
+        schemaname NOT IN ( 
+            'pg_catalog',
+            'information_schema'
+         );
+		 
+
+Directories which are older than 14 days
+=========================================		 
+[16:56:23] Amjad Mohammed: [root@tauem01 virtuoso]# find /var/data/virtuoso/* -type d -mtime +14 | wc -l
+6050
+[16:56:34] Amjad Mohammed: there’s 6050 directories which are older than 14 days
+
+top 10 files by size
+====================
+du -cksh * | sort -rh | head -n 10
+
+Relational diagrams
+===================
+https://confluence.ipttools.info/pages/viewpage.action?pageId=77451527
+
+https://confluence.ipttools.info/display/BD/Level+4+Business+Processes+by+Project+Release
+
+https://jira.ipttools.info/browse/EOP-5470
+
+https://confluence.ipttools.info/display/IPT/IPT+-+PI+9+-+Inter+Team+Dependency+Map
+
+MI-BI Dependencies & Risks
+==========================
+https://confluence.ipttools.info/pages/viewpage.action?pageId=77454369
+
+
+S4_MANAGE_PARTY
+S95_MANAGE_PARTY
+
+Reference Data
+==============
+https://confluence.ipttools.info/pages/viewpage.action?pageId=39322391
+
+Caseworking 
+===========
+https://confluence.ipttools.info/display/AD/Caseworking+-+Logical+Data+Models
+
+Target DB mappings
+==================
+https://bitbucket.ipttools.info/projects/MI/repos/ipt-mi-db-schemas/browse/ServiceDescription/mi_dwb/ddl/v2.0
+
+Active connections to host
+==========================
+netstat -antup
+
+nethogs installable via:
+
+sudo apt-get install nethogs
+Run as root:
+
+sudo nethogs
+
+https://jira.ipttools.info/browse/IIAS-19997
+
+https://jira.ipttools.info/browse/CSDP-1535
+https://jira.ipttools.info/browse/MIBI-576
+
+https://jira.ipttools.info/browse/CSDP-1545

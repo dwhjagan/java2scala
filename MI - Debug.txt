@@ -1,0 +1,192 @@
+DB -> hrpam01.np-ii-dat1-ciz1.ipt.ho.local
+
+Active MQ -> http://localhost:8161/admin/queues.jsp
+
+Services Host -> svcam01.np-ii-dat1-ciz1.ipt.ho.local
+
+Services -> http://localhost:8080/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_42269253
+
+SELECT * FROM cases where cst_sdv_code='CST' and cst_sdv_value='DECASO'
+
+http://admin:admin@localhost:8161/api/message/USERS.cid-in-cases?type=queue
+
+/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_{{AUTO.CASE_ID}}
+
+http://localhost:8080/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_42269253
+
+
+/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_42269253
+
+
+INSERT INTO cases( id, lead_cas_id, cg_id, locs_id, ah_id, cst_sdv_code, cst_sdv_value, date_of_application, expiry_dte, priority_sdv_code, priority_sdv_value, ext_sys_code, icfn_card_prd_ind, cc_sdv_code, cc_sdv_value, scat_sdv_code, scat_sdv_value, usr_created, dte_created, usr_changed, dte_changed) VALUES ( 29291066, NULL, NULL, NULL, NULL, 'CST', 'DECASO', '2015-07-17', '2015-07-17', NULL, NULL, NULL, NULL, 'CC', NULL, 'SCAT', NULL, '', '2015-09-17', NULL, NULL)	;
+
+http://localhost:8080/ipt-ss-service-delivery-services/service-deliveries/externalHandleSpace/{{LOCAL.HANDLE_SPACE}}/externalHandleValue/29291066
+
+http://localhost:8080/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_29291066
+
+
+/ipt-ss-service-delivery-services/service-deliveries/externalHandleSpace/CID_CASES/externalHandleValue/29291066
+
+CID_CASES_29291066
+
+73ecc5d8abff494703751cc0b46dcedfae6de435a311d27655e42d230bccaf44
+
+
+
+Logs
+
+Executing test case[T0001_]:SD Automation & Events Associated
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/GSR%20Tech%20Systems%20Ltd/.m2/repository/uk/gov/homeoffice/virtuoso-lib/1.22/virtuoso-lib-1.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/GSR%20Tech%20Systems%20Ltd/.m2/repository/org/apache/activemq/activemq-all/5.9.1/activemq-all-5.9.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/GSR%20Tech%20Systems%20Ltd/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+2016-09-14 17:23:12 INFO  SecurityUtil:44 - Attempting to get Token :http://balaa02.np-ii-dat1-ssz1.ipt.ho.local:8080/idam/json/authenticate
+2016-09-14 17:23:14 INFO  SecurityUtil:73 - Response StatusCode: 200
+2016-09-14 17:23:14 INFO  SecurityUtil:74 - Response: {"tokenId":"AQIC5wM2LY4SfczR0lZl57IddPyez4pSAQMxi5bSPWK27jo.*AAJTSQACMDIAAlNLABMxMTU4MjA4ODQzNDE1MjEwOTA2AAJTMQACMDE.*","successUrl":"/idam/console"}
+2016-09-14 17:23:14 INFO  SecurityUtil:79 - Token Obtained Successfully
+2016-09-14 17:23:14 INFO  SecurityUtil:80 - Cookie ID :AQIC5wM2LY4SfczR0lZl57IddPyez4pSAQMxi5bSPWK27jo.*AAJTSQACMDIAAlNLABMxMTU4MjA4ODQzNDE1MjEwOTA2AAJTMQACMDE.*
+2016-09-14 17:23:14 INFO  SecurityUtil:44 - Attempting to get Token :http://balaa02.np-ii-dat1-ssz1.ipt.ho.local:8080/idam/json/authenticate
+2016-09-14 17:23:14 INFO  SecurityUtil:73 - Response StatusCode: 200
+2016-09-14 17:23:14 INFO  SecurityUtil:74 - Response: {"tokenId":"AQIC5wM2LY4SfcwJk9aawOsAbcc3YUre1cYnuirLR2ehB_A.*AAJTSQACMDIAAlNLABQtNTM5MTY0NTAzNDA0MDcxMzEzNgACUzEAAjAx*","successUrl":"/idam/console"}
+2016-09-14 17:23:14 INFO  SecurityUtil:79 - Token Obtained Successfully
+2016-09-14 17:23:14 INFO  SecurityUtil:80 - Cookie ID :AQIC5wM2LY4SfcwJk9aawOsAbcc3YUre1cYnuirLR2ehB_A.*AAJTSQACMDIAAlNLABQtNTM5MTY0NTAzNDA0MDcxMzEzNgACUzEAAjAx*
+2016-09-14 17:23:14 INFO  SimpleTaskProcessor:129 - T0001_ : T0002_ : b7652454-fb03-494b-8767-cc9a6d119402:Loading steps : Ingest a Case
+2016-09-14 17:23:14 INFO  DataLoadProcessor:129 - T0001_ : T0002_ : e976156b-e549-4719-afbe-e097f587ade5:Loading steps : Ingest a Case
+2016-09-14 17:23:15 INFO  SimpleTaskProcessor:129 - T0001_ : 9adff7ac-5a4f-421b-8b44-a80276c1b5a0:Loading steps : SD Automation & Events Associated
+2016-09-14 17:23:15 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:Loading steps : SD Automation & Events Associated - Fetch and assert service delivery for {{LOCAL.HANDLE_SPACE}} {{AUTO.CASE_ID}} : Extract SD_ID & Unique ID
+2016-09-14 17:23:15 INFO  ServiceCallProcessor:129 - T0001_ : c5811086-2cec-4ef4-830a-3eb7362dad7d:Loading steps : SD Automation & Events Associated - Fetch the SD Events and assert that no Fulfillment Events exist
+2016-09-14 17:23:15 INFO  ServiceCallProcessor:129 - T0001_ : 59249294-b8b1-4be4-ad8e-514161299a81:Loading steps : SD Automation & Events Associated - PUT Events to SD
+2016-09-14 17:23:15 INFO  ServiceCallProcessor:129 - T0001_ : d8c0d1dd-e1b9-4ddf-b7a1-e3124d9db787:Loading steps : SD Automation & Events Associated - Fetch the SD Events and assert that no Fulfillment Events exist
+2016-09-14 17:23:15 INFO  DataLoadProcessor:129 - T0001_ : T0002_ : e976156b-e549-4719-afbe-e097f587ade5:SQL file path :test-data\MI\SQL\d0001.sql
+2016-09-14 17:23:16 INFO  DBConnector:115 - T0001_ : T0002_ : e976156b-e549-4719-afbe-e097f587ade5:INSERT INTO cases( id, lead_cas_id, cg_id, locs_id, ah_id, cst_sdv_code, cst_sdv_value, date_of_application, expiry_dte, priority_sdv_code, priority_sdv_value, ext_sys_code, icfn_card_prd_ind, cc_sdv_code, cc_sdv_value, scat_sdv_code, scat_sdv_value, usr_created, dte_created, usr_changed, dte_changed) VALUES ( 10, NULL, NULL, NULL, NULL, 'CST', 'DECASO', '2015-07-17', '2015-07-17', NULL, NULL, NULL, NULL, 'CC', NULL, 'SCAT', NULL, '', '2015-09-17', NULL, NULL)	
+2016-09-14 17:23:16 INFO  SimpleTaskProcessor:129 - T0001_ : 9adff7ac-5a4f-421b-8b44-a80276c1b5a0:delayed for 2000
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:Trying count(1) : [GET] HTTP://balaa11.np-ii-dat1-ssz1.ipt.ho.local:8080/ipt-ss-service-delivery-services/service-deliveries/externalHandleSpace/CID_CASES/externalHandleValue/10
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:Response : {"serviceDeliveries":[{"internalHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"externalHandleSpace":"CID_CASES","externalHandleValue":"10","serviceDeliveryType":{"refDataValueId":10306,"refDataValueCode":"LTR","refDataValueShortDesc":"LTR","refDataValueLongDesc":"Leave to Remain in the UK"},"serviceDeliveryStatus":{"refDataValueId":10605,"refDataValueCode":"EXTERNAL","refDataValueShortDesc":"External Case","refDataValueLongDesc":"Legacy case being processed on external system"},"involvements":[],"indirectInvolvements":[],"attributes":[{"internalHandle":{"unique_identifier":"04330206892cd661170fd2a094ab70d7078a15b25d5f8aa379b4899e0405d70e","visibility_marker":"DEFAULT","interface_identifier":"BIOMETRIC_CASE_TYPE_10"},"serviceDeliveryAttributeTypeId":10716,"serviceDeliveryAttributeTypeCode":"BIOMETRIC_CASE_TYPE","attributeValueRefDataElement":{"code":"BRP","id":31712},"created":"2016-09-14T16:23:18.697832","createdBy":null},{"internalHandle":{"unique_identifier":"5965ff9a22e497e2aabb7bfc2a41369fa2ce76ab4cb0025e4ee562ce06b6351d","visibility_marker":"DEFAULT","interface_identifier":"CHANNEL_10"},"serviceDeliveryAttributeTypeId":10704,"serviceDeliveryAttributeTypeCode":"CHANNEL","attributeValueRefDataElement":{"code":"DOOEAF","id":45402},"created":"2016-09-14T16:23:18.697832","createdBy":null},{"internalHandle":{"unique_identifier":"5c86d479233e7a041d7bd14daec1bfbb165e17886995f63c26fc0ad5ca4187fa","visibility_marker":"DEFAULT","interface_identifier":"EXTSD_REF_10"},"serviceDeliveryAttributeTypeId":10714,"serviceDeliveryAttributeTypeCode":"EXTSD_REF","attributeValueString":"10","created":"2016-09-14T16:23:18.697832","createdBy":null},{"internalHandle":{"unique_identifier":"98735fcdfc70c670112c94c485b2b30991e50abf016ea7bf0f3736b1dca510c8","visibility_marker":"DEFAULT","interface_identifier":"VALIDTO_10"},"serviceDeliveryAttributeTypeId":10711,"serviceDeliveryAttributeTypeCode":"VALIDTO","attributeValueDate":"2015-07-17T00:00:00Z","created":"2016-09-14T16:23:18.697832","createdBy":null}],"serviceDeliveryProcesses":[],"processInstances":[],"createdDate":"2016-09-14T16:23:18Z","lastUpdated":"2016-09-14T16:23:18Z","documentAttachments":[],"created":"2016-09-14T16:23:18.697832","createdBy":null}]}
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:Passed assertion : $.serviceDeliveries count is 1
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:extracted : [CID_CASES_10] mapped to : SD_ID
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 1c2b78c6-7dfb-4110-a12b-99198611148e:extracted : [977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60] mapped to : SD_UniqueID
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : c5811086-2cec-4ef4-830a-3eb7362dad7d:Trying count(1) : [GET] HTTP://balaa11.np-ii-dat1-ssz1.ipt.ho.local:8080/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_10
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : c5811086-2cec-4ef4-830a-3eb7362dad7d:Response : [{"internalHandle":{"unique_identifier":"a6177aa26566627fe475d518a6351a1771dacf4d7d9a7f416844466028a1e0d8","visibility_marker":"DEFAULT","interface_identifier":"CID_APPLICATION_EVENT_10"},"externalHandle":{"unique_identifier":"CID_APPLICATION_EVENT_10","handle_value":"10","handle_space":"CID_APPLICATION_EVENT"},"serviceDeliveryHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"eventDate":"2015-07-17T00:00","eventType":"APPLICATION","processHandle":null,"documentHandle":null,"ipfVertical":"REGISTRATION","eventProperties":{"zoneId":"UTC"},"serviceDeliveryType":null,"involvementId":null,"taskId":null,"taskName":null,"linkedEvents":null,"eventAttributes":[{"type":"PAYLOAD_TYPE","value":"EVENT","description":"Payload Type","groupId":null,"groupType":"uk.gov.ipt.eventhistory.domain.PayloadType","dataType":"String","associationId":null,"associationType":null}],"createdBy":"server_user","created":"2016-09-14T16:23:18.697832","firstName":null,"lastName":null,"identityHandle":null},{"internalHandle":{"unique_identifier":"7fcc3f899b9211af32fdc09cdb2090f21299ea8fa335dfbfb95ead452d2be92f","visibility_marker":"DEFAULT","interface_identifier":"CID_EXPIRY_EVENT_10"},"externalHandle":{"unique_identifier":"CID_EXPIRY_EVENT_10","handle_value":"10","handle_space":"CID_EXPIRY_EVENT"},"serviceDeliveryHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"eventDate":"2015-07-17T00:00","eventType":"EXPIRY","processHandle":null,"documentHandle":null,"ipfVertical":"IDENTITY_MANAGEMENT","eventProperties":{"zoneId":"UTC"},"serviceDeliveryType":null,"involvementId":null,"taskId":null,"taskName":null,"linkedEvents":null,"eventAttributes":[{"type":"PAYLOAD_TYPE","value":"EVENT","description":"Payload Type","groupId":null,"groupType":"uk.gov.ipt.eventhistory.domain.PayloadType","dataType":"String","associationId":null,"associationType":null}],"createdBy":"server_user","created":"2016-09-14T16:23:18.697832","firstName":null,"lastName":null,"identityHandle":null}]
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : c5811086-2cec-4ef4-830a-3eb7362dad7d:Passed assertion : $[?(@.eventType=~/FULFILLMENT/)] count is 0
+2016-09-14 17:23:18 INFO  ServiceCallProcessor:129 - T0001_ : 59249294-b8b1-4be4-ad8e-514161299a81:Trying count(1) : [PUT] HTTP://balaa11.np-ii-dat1-ssz1.ipt.ho.local:8080/eventhistory-persistence-services/v2/event/
+2016-09-14 17:23:19 INFO  ServiceCallProcessor:129 - T0001_ : 59249294-b8b1-4be4-ad8e-514161299a81:request : {    "internalHandle": {        "unique_identifier": "11",        "visibility_marker": "DEFAULT",        "interface_identifier": "12"    },        "externalHandle": {        "unique_identifier": "ex",        "handle_value": "some-external-handle",        "handle_space": "BRP_BIOMETRIC"    },    "serviceDeliveryHandle": {        "unique_identifier": "977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60",        "visibility_marker": "DEFAULT",        "interface_identifier": "CID_CASES_10"    },    "eventDate": "2016-02-24T11:28:50.373",    "created": "2016-12-24T11:28:50.373",    "eventType": "FULFILLMENT",    "ipfVertical": "FULFILLMENT",    "serviceDeliveryType": "IA",    "involvementId": 3848,    "taskId": 1,    "taskName": "some name",    "linkedEvents": "13120, 13121",    "eventAttributes": [{        "type": "FIRST_NAME",        "value": "Dan",        "description": "First Name of the Person",        "groupId": 1452768549222,        "groupType": "FulfilmentAction",        "dataType": "String",        "associationId": 1,        "associationType": "someAssociation"    }],    "createdBy": "some-user-id"}
+2016-09-14 17:23:19 INFO  ServiceCallProcessor:129 - T0001_ : 59249294-b8b1-4be4-ad8e-514161299a81:Response : 
+2016-09-14 17:23:19 INFO  ServiceCallProcessor:129 - T0001_ : d8c0d1dd-e1b9-4ddf-b7a1-e3124d9db787:Trying count(1) : [GET] HTTP://balaa11.np-ii-dat1-ssz1.ipt.ho.local:8080/eventhistory-persistence-services/v3/event/handle/SERVICE_DELIVERY/id/CID_CASES_10
+2016-09-14 17:23:19 INFO  ServiceCallProcessor:129 - T0001_ : d8c0d1dd-e1b9-4ddf-b7a1-e3124d9db787:Response : [{"internalHandle":{"unique_identifier":"11","visibility_marker":"DEFAULT","interface_identifier":"12"},"externalHandle":{"unique_identifier":"ex","handle_value":"some-external-handle","handle_space":"BRP_BIOMETRIC"},"serviceDeliveryHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"eventDate":"2016-02-24T11:28:50.373","eventType":"FULFILLMENT","processHandle":null,"documentHandle":null,"ipfVertical":"FULFILLMENT","eventProperties":{},"serviceDeliveryType":"IA","involvementId":3848,"taskId":1,"taskName":"some name","linkedEvents":"13120, 13121","eventAttributes":[{"type":"FIRST_NAME","value":"Dan","description":"First Name of the Person","groupId":1452768549222,"groupType":"FulfilmentAction","dataType":"String","associationId":1,"associationType":"someAssociation"}],"createdBy":"some-user-id","created":"2016-12-24T11:28:50.373","firstName":null,"lastName":null,"identityHandle":null},{"internalHandle":{"unique_identifier":"a6177aa26566627fe475d518a6351a1771dacf4d7d9a7f416844466028a1e0d8","visibility_marker":"DEFAULT","interface_identifier":"CID_APPLICATION_EVENT_10"},"externalHandle":{"unique_identifier":"CID_APPLICATION_EVENT_10","handle_value":"10","handle_space":"CID_APPLICATION_EVENT"},"serviceDeliveryHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"eventDate":"2015-07-17T00:00","eventType":"APPLICATION","processHandle":null,"documentHandle":null,"ipfVertical":"REGISTRATION","eventProperties":{"zoneId":"UTC"},"serviceDeliveryType":null,"involvementId":null,"taskId":null,"taskName":null,"linkedEvents":null,"eventAttributes":[{"type":"PAYLOAD_TYPE","value":"EVENT","description":"Payload Type","groupId":null,"groupType":"uk.gov.ipt.eventhistory.domain.PayloadType","dataType":"String","associationId":null,"associationType":null}],"createdBy":"server_user","created":"2016-09-14T16:23:18.697832","firstName":null,"lastName":null,"identityHandle":null},{"internalHandle":{"unique_identifier":"7fcc3f899b9211af32fdc09cdb2090f21299ea8fa335dfbfb95ead452d2be92f","visibility_marker":"DEFAULT","interface_identifier":"CID_EXPIRY_EVENT_10"},"externalHandle":{"unique_identifier":"CID_EXPIRY_EVENT_10","handle_value":"10","handle_space":"CID_EXPIRY_EVENT"},"serviceDeliveryHandle":{"unique_identifier":"977dbe28b64ba4b94b286aa43da630d73d834cc57f77441a112c03df43434c60","visibility_marker":"DEFAULT","interface_identifier":"CID_CASES_10"},"eventDate":"2015-07-17T00:00","eventType":"EXPIRY","processHandle":null,"documentHandle":null,"ipfVertical":"IDENTITY_MANAGEMENT","eventProperties":{"zoneId":"UTC"},"serviceDeliveryType":null,"involvementId":null,"taskId":null,"taskName":null,"linkedEvents":null,"eventAttributes":[{"type":"PAYLOAD_TYPE","value":"EVENT","description":"Payload Type","groupId":null,"groupType":"uk.gov.ipt.eventhistory.domain.PayloadType","dataType":"String","associationId":null,"associationType":null}],"createdBy":"server_user","created":"2016-09-14T16:23:18.697832","firstName":null,"lastName":null,"identityHandle":null}]
+2016-09-14 17:23:19 INFO  ServiceCallProcessor:129 - T0001_ : d8c0d1dd-e1b9-4ddf-b7a1-e3124d9db787:Passed assertion : $[?(@.eventType=~/FULFILLMENT/)] count is 1
+
+DB Ingest Test Cases
+====================
+CID (d0008 , d0009 & d0012)
+===
+cases - Completed
+people - Completed
+person_case - Completed
+Case_Outcome_History - Completed
+people_aliases - Completed
+special_conditions - Completed
+notes - Completed
+reference_numbers - Completed
+sponsor - Completed
+applicationsponsor - Completed
+address
+case_rep
+rep
+
+CRS(d0010)
+===
+namedperson - Completed
+application  - Completed
+additionalappdetails  - Completed
+localalertlist  - Completed
+localalertlistlink  - Completed
+address
+
+BRP(d0011)
+===
+biometric_appointments  - Completed
+biometric_enrolments  - Completed
+person_enrolments  - Completed
+finger_match_requests  - Completed
+
+IPTSKIPPED_EVENTS -> CID_CASES_83263
+UNDERAGE_EVENTS -> CID_CASES_83314
+POSTAL_IDENT1_EVENTS -> CID_CASES_83329
+PREMIUM_IDENT1_EVENTS -> CID_CASES_83382
+
+./kafka-console-consumer.sh --zookeeper hdna1:2181 --topic np-ii-dat1-ciz1_event_json
+
+IPTSKIPPED_EVENTS -> CID_CASES_84154
+UNDERAGE_EVENTS -> CID_CASES_84164
+POSTAL_IDENT1_EVENTS -> CID_CASES_84179
+PREMIUM_IDENT1_EVENTS -> CID_CASES_84202
+
+IPTSKIPPED_EVENTS -> CID_CASES_91513
+UNDERAGE_EVENTS -> CID_CASES_91527
+POSTAL_IDENT1_EVENTS -> CID_CASES_91546
+PREMIUM_IDENT1_EVENTS -> CID_CASES_91573
+
+MIBI-146 #MI WAREHOUSE DB Update for CI Environment
+
+
+select * from mi_landing.lnd_event_attributes where event_handle_id='DEPENDENT_CHECK_116186' order by id
+
+
+
+Application Status checks
+
+/info
+Release version
+Build ID
+Started Date and Time
+Build date
+Build version (If Java list which version it was build)
+
+/Status
+
+Info details with dependency services like DB and other services
+Service Name            Status
+DB Connectivity         OK
+Dependency Service1     OK
+Dependency Service1     KO
+
+
+/Config
+List all the properties where it can be configured or customised per environment
+env=Dev/Prod/Test
+DB.Connection.Max=100
+DB.Connection.Min=10
+
+netstat -an | findstr :5432
+
+select distinct message_id,internal_handle_id, internal_handle_visibility, external_handle_value, external_handle_space, person_handle_id, source_cd from mi_landing.lnd_identity  where internal_handle_id='CRS_SPONSOR_50_123340'
+
+select distinct message_id,internal_handle_id, internal_handle_visibility, external_handle_value, external_handle_space, person_handle_id, source_cd from mi_landing.lnd_identity  where internal_handle_id='CID_PEOPLE_123338'
+
+select distinct message_id,internal_handle_id, internal_handle_visibility, external_handle_value, external_handle_space, person_handle_id, source_cd from mi_landing.lnd_identity  where internal_handle_id='CRS_NAMED_PERSON_50_123340'
+
+select distinct message_id,internal_handle_id, internal_handle_visibility, external_handle_value, external_handle_space, person_handle_id, source_cd from mi_landing.lnd_identity  where internal_handle_id='CRS_LOCAL_ALERT_50_123340'
+
+
+URL url = new URL("http://" + serverName + "/" + serverUrl + "/" + serverServiceName + "?type=poll&testId=" + URLEncoder.encode(testId, "UTF-8"));
+			int statusCode = 0;
+			int retryCount = 0;
+			URLConnection connection = null;
+			do{
+				connection = TestProxy.openConnection(url, testProxyHost);
+				if (connection instanceof HttpURLConnection) {
+					HttpURLConnection httpConn = (HttpURLConnection) connection;
+					statusCode = httpConn.getResponseCode();
+					if(statusCode != 200){
+						reportMessage(testServerName, ReportType.ERROR,"Response code " + statusCode + " received while checking for status of the test " + url);
+					}
+				}
+				retryCount++;
+			} while(statusCode != 200 && retryCount <= 5);
+			responseStream = connection.getInputStream();
+			JsonReader jsonReader = Json.createReader(responseStream);
+			JsonObject jsonObject = jsonReader.readObject();
+			jsonReader.close();
+			responseStream.close();
