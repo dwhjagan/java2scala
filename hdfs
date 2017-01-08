@@ -1,0 +1,49 @@
+sudo su - root
+hostname
+
+sudo su - hdfs
+hdfs -dfs -ls /apps/MI
+
+dfs -dfs -ls /apps/MI
+hdfs dfs -ls /apps/MI
+
+hdfs dfs -ls /apps/MI/stream
+hdfs dfs -ls /apps/MI/streams/person
+hdfs dfs -ls /apps/MI/stream/person
+
+hdfs dfs -ls /apps/MI/stream/person/hub
+hdfs dfs -ls /apps/MI/stream/person/hub/year=2016/month=11/day=26
+hdfs dfs -ls /apps/MI/stream/person/hub/year=2016/month=11/day=29
+hdfs dfs -ls /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16
+hdfs dfs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16/part-r-00004-77711f1f-4ada-48f2-83b0-172c1c6d046b.json
+
+hdfs dfs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16/part-r-00004-77711f1f-4ada-48f2-83b0-172c1c6d046b.json |jq .
+
+exit
+logout
+yum install jq
+
+sudo su - hdfs
+hdfs dfs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16/part-r-00004-77711f1f-4ada-48f2-83b0-172c1c6d046b.json |jq .
+
+hdfs dfs -ls /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16
+
+hdfs dfs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16/part-r-00004-77711f1f-4ada-48f2-83b0-172c1c6d046b.json |wc - d
+hdfs dfs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=29/hour=16/part-r-00004-77711f1f-4ada-48f2-83b0-172c1c6d046b.json |wc -l
+
+ls -ltr
+
+hadoop fs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=30/hour=10/*.json | grep CRS_SPONSOR_50_242270
+hadoop fs -find /apps/MI/stream/person/hub/*
+
+hostname
+sudo su - hdfs
+
+hadoop fs -cat /apps/MI/stream/person/hub/year=2016/month=11/day=30/hour=10/*.json | grep CRS_SPONSOR_50_242270
+hadoop fs -cat /apps/MI/stream/person/link/year=2016/month=11/day=30/hour=10/*.json | grep CRS_SPONSOR_50_242270
+
+hadoop fs -ls /apps/MI/stream/person
+hadoop fs -ls /apps/MI/stream/identity
+
+------------------------------------------------------------
+
