@@ -5,7 +5,6 @@ public class caseclass {
     public static void main(String args[]) {
         // char grade = args[0].charAt(0);
         char grade = 'A';
-
         switch(grade) {
             case 'A' :
                 System.out.println("Excellent!");
