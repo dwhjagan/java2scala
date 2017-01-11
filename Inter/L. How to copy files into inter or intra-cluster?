@@ -1,0 +1,4 @@
+The most common invocation of DistCp is an inter-cluster copy:
+
+bash$ hadoop distcp hdfs://nn1:8020/foo/bar \ 
+                    hdfs://nn2:8020/bar/foo

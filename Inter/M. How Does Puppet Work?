@@ -1,0 +1,15 @@
+It works like this..Puppet agent is a daemon that runs on all the client servers
+(the servers where you require some configuration, or the servers which are going to be managed using puppet.)
+
+All the clients which are to be managed will have puppet agent installed on them, and are called nodes in puppet.
+
+Puppet Master: This machine contains all the configuration for different hosts. 
+Puppet master will run as a daemon on this master server.
+
+Puppet Agent: This is the daemon that will run on all the servers, which are to be managed using puppet. 
+Puppet agent will go and ask the configuration for itself from the puppet master server at a specific time interval.
+
+The connection between puppet agent and master is made in a secure encrypted channel with the help of SSL.
+
+If suppose the puppet agent has already applied the required configuration and there are no new changes then 
+it will do nothing.

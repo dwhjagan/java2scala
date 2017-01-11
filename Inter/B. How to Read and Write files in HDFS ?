@@ -1,0 +1,30 @@
+*******************************************
+Please find the diagram in the comment section.
+*******************************************
+file writes and reads in HDFS.
+a. HDFS Data write pipeline
+
+data write operation:
+
+Step 1: The hdfs client sends create request on DistributedFileSystem APIs.
+
+Step 2: DistributedFileSystem makes an RPC call to the namenode to create a new file in the filesystem’s namespace.
+
+The namenode performs various checks to make sure that the file doesn’t already exist and that the client has the
+permissions to create the file. If these checks pass, the namenode makes a record of the new file; otherwise, file
+creationfails and the client is thrown an IOException.
+
+Step 3: TheDistributedFileSystem returns an FSDataOutputStream for the client to start writing data to. As the client writes
+data, DFSOutputStream splits it into packets, which it writes to an internal queue, called the data queue. The data queue is
+consumed by the DataStreamer, which is responsible for asking the namenode to allocate new blocks by picking a list of
+suitable datanodes to store the replicas.
+
+Step 4: The list of datanodes form a pipeline, and here we’ll assume the replication level is three, so there are three
+nodes in the pipeline. TheDataStreamer streams the packets to the first datanode in the pipeline, which stores the packet
+and forwards it to the second datanode in the pipeline. Similarly, the second datanode stores the packet and forwards it to
+the third (and last) datanode in the pipeline.
+
+Step 5: DFSOutputStream also maintains an internal queue of packets that are waiting to be acknowledged by datanodes, called
+the ack queue. A packet is removed from the ack queue only when it has been acknowledged by the datanodes in the pipeline.
+Datanode sends the acknowledgement once required replicas are created (3 by default). Similarly all the blocks are stored
+and replicated on the different datanodes, the data blocks are copied in parallel

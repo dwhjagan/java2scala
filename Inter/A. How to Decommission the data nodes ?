@@ -1,0 +1,67 @@
+Steps for Decommissioning:
+
+1) Before add any property, stop your cluster. Otherwise, it will affect your cluster. 
+You can do this using the command stop-dfs.sh
+
+Next, Go to your Resource Manager node to edit yarn-site.xml
+
+2) You need to add this property in your yarn-site.xml
+
+<property>
+   <name>yarn.resourcemanager.node.exclude-path</name>
+   <value>/home/hadoop/excludes</value>
+</property>
+
+Note- In value section, mention your excludes file address.
+
+Now, go to your master node (Namenode) and edit the hdfs-site.xml file-
+
+3) Add this property to hdfs-site.xml
+
+<property>
+   <name>dfs.hosts.exclude</name>
+   <value>/home/hadoop/excludes</value>
+</property>
+
+Note–If the Resource Manager and the Namenode (Master Node) are on the same machine, then simply edit the yarn-site.xml  
+and hdfs-site.xml of Namenode (Master node)
+
+4) Next, start your cluster using the following commands:
+
+Note–If the Resource Manager and the Namenode (Master Node) are on the same machine, then simply edit the yarn-site.xml
+and hdfs-site.xml of Namenode (Master node)
+
+start-dfs.sh     #(Run this command On Masternode/Namenode only)
+start-yarn.sh    #(Run this command On Resource Manager)
+
+Note- If the Resource Manager (Nodemanager) and Namenode are running on the same machine, 
+then run the above commands on Namenode (Master Node) only.
+
+5) We need to update exclude file on both machine Resource manager and Namenode (Master Node), if it’s not there 
+then we can create an exclude file on both the machine
+
+vi excludes
+
+Add the Datanode/Slave-node address, for decommissioning-
+
+192.168.10.103 ( example include actual Ip address )
+
+6) Run the following command in the Resource Manager:
+
+yarn rmadmin -refreshNodes     (on Resource Manager)
+
+This command will basically check the yarn-site.xml and process that property.
+and decommission the mentioned node from yarn. It means now yarn manager will not give any job to this node.
+
+7) Run the following command on the Namenode to check hdfs-site.xml and process the property and decommissioned
+the specified node/datanode.
+
+hdfs dfsadmin -refreshNodes           (on Namenode )
+This command will basically check the yarn-site.xml and process that property, and Decommission the mentioned node
+from YARN. Meaning, the YARN Manager will not give any job to this node.
+
+-- Refresh Node successful.
+
+8) Run the command hadoop dfsadmin –report
+hadoop dfsadmin -report
+
