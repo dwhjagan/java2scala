@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9c3e6f8-9971-4a5b-b791-f4308fd2a439" name="Default" comment="" />
+    <list default="true" id="d9c3e6f8-9971-4a5b-b791-f4308fd2a439" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/A. How to Decommission the data nodes ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/A1. How to commission the Data nodes ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/B. How to Read and Write files in HDFS ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/C. How to check a hadoop cluster healthy status ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/D. How to verify the read and write to HDFS works successfully ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/E. List of Hadoop Admin Activities ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/F. What is Hbase ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/G. hbase vs HDFS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/H. What is Ambari ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/I. what Hadoop will do after one of datanodes down ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/J. How to limit Data node's disk usage?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/J. single point of failure (SPOF) ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/K. hadoop command to find namenode in a node ?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/L. How to copy files into inter or intra-cluster?" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes/Interview QA/M. How Does Puppet Work?" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +32,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="note" pinned="false" current-in-tab="true">
+      <file leaf-file-name="note" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes/note">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A. How to Decommission the data nodes ?" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Notes/Interview QA/A. How to Decommission the data nodes ?">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,79 +170,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascala.artifactid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascala.artifactid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascala.artifactid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascala.artifactid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scalajavarepo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="Notes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,6 +185,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notes/Interview QA" />
       <recent name="$PROJECT_DIR$/Inter" />
     </key>
   </component>
@@ -832,12 +787,12 @@
       <updated>1483895786136</updated>
       <workItem from="1483895787802" duration="5406000" />
       <workItem from="1483963898017" duration="8365000" />
-      <workItem from="1484137940841" duration="11606000" />
+      <workItem from="1484137940841" duration="12146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25377000" />
+    <option name="totallyTimeSpent" value="25917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1209,6 +1164,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes/Interview QA/A. How to Decommission the data nodes ?">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

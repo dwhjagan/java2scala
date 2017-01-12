@@ -1,0 +1,5 @@
+Verify that read and write to hdfs works successfully.
+You can easily check if your cluster is working or not by writing/reading files
+
+$ hdfs dfs -put [input file] [output file]
+$ hdfs dfs -cat [output file]

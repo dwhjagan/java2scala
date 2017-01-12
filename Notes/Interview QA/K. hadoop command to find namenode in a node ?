@@ -1,0 +1,15 @@
+[cloudera@quickstart ~]$ ps -fu hdfs
+UID        PID  PPID  C STIME TTY          TIME CMD
+hdfs      5327     1  0 09:25 ?        00:00:49 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_datanode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -Dhad
+hdfs      5428     1  0 09:25 ?        00:00:21 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_journalnode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -D
+hdfs      5514     1  0 09:25 ?        00:01:22 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_namenode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -Dhad
+hdfs      5646     1  0 09:25 ?        00:00:26 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_secondarynamenode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-h
+[cloudera@quickstart ~]$ 
+
+
+[cloudera@quickstart ~]$ ps -fu yarn
+UID        PID  PPID  C STIME TTY          TIME CMD
+yarn      5907     1  0 09:26 ?        00:00:53 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_nodemanager -Xmx1000m -server -Dhadoop.log.dir=/var/log/hadoop
+yarn      6069     1  0 09:26 ?        00:01:47 /usr/java/jdk1.7.0_67-cloudera/bin/java -Dproc_resourcemanager -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-yar
+[cloudera@quickstart ~]$ 
+

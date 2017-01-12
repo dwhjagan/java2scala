@@ -1,0 +1,73 @@
+Commissioning of Datanodes:
+
+Commissioning process is just the opposite of decommissioning, but the configuration part is almost same for both.
+
+Follow the steps for commissioning configuration –
+
+Before starting commissioning steps, simply remove the exclude file on both machine or delete all the entries of exclude 
+file ( make it blank)
+
+Stop all daemons before adding any property into Hadoop cluster.
+
+Open Resource manager machine to edit yarn-site.xml
+
+1) Next, Go to yarn manager, and add this property into yarn-site.xml.
+vi yarn-site.xml
+
+<property>    
+   <name>yarn.resourcemanager.nodes.include-path</name>
+   <value>/home/hadoop/includes</value>
+</property>
+
+Next, Go to your Namenode (Master Node).
+
+2) Add this property to hdfs-site.xml:
+vi hdfs-site.xml                           (on Namenode )
+
+<property>
+   <name>dfs.hosts</name>
+   <value>/home/hadoop/includes</value>
+</property>
+
+3) Now, start your cluster using the following commands:
+
+start-dfs.sh                            (Run this command On Namenode only)
+start-yarn.sh                           (Run this command On Resource Manager)
+
+Note- If the Resource Manager (Nodemanager) and the Namenode are running on same machine, 
+then run these commands on Namenode (Master Node) only.
+
+4) We need to update the include file on both the Resource Manager and the Namenode (Master Node). 
+If it’s not present, then create an include file on both the Nodes.
+
+vi includes
+Add the Datanode’s/Slave nodes IP address or hostname
+
+192.168.10.101   ( examples)
+192.168.10.102
+192.168.10.103
+
+Note- If you are going to add a new datanode or if you are scaling up your cluster by adding new node, 
+you need to add the IP address and hostname to /etc/hosts file of all nodes ( Namenode, Datanode, Resource Manager).
+
+Whenever you are going to do Commissioning, please mention all datanode address in the Include file.
+
+5) Run the following command on the Resource Manager
+
+Yarn rmadmin -refreshNodes
+
+6) Next, go to the Master Node (Namenode) and run the following command to refresh all nodes:
+
+Run this command to refresh all nodes-
+hdfs dfsadmin -refreshNodes
+
+7) Check Hadoop admin report using the command 
+hadoop dfsadmin –report.
+
+How to run Hadoop Balancer?
+
+hadoop balancer
+
+Hadoop Balancer is a built in property which makes sure that no datanode will be over utilized. When you run the balancer utility, it checks whether some datanode are under-utilized or over-utilized and will balance the replication factor. But make sure the Balancer should run in only off peak hours in a real cluster, because if you run this during peak hours, it will cause a heavy load to networking, as it will transfer large amount of data.
+
+So, this is how Commissioning is done!

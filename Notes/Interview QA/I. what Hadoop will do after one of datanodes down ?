@@ -1,0 +1,10 @@
+will hadoop try to generate the lost replicates on the other alive nodes? or just do nothing(since still have 2 replicas left).
+
+Yes, Hadoop will recognize it and make copies of that data on some other nodes. When Namenode stop receiving heart beats from 
+the data nodes, it assumes that data node is lost. To keep the replication of the all the data to defined replication factor, 
+it will make the copies on other data nodes.
+
+Add, what if the down data node come back after a while, can hadoop recognize the data on that node?
+Yes, when a data node comes back with all its data, Name node will remove/delete the extra copies of data. In the next heart 
+beat to the data node, Name node will send the instruction to remove the extra data and free up the space on disk.
+

@@ -1,0 +1,41 @@
+[cloudera@quickstart ~]$ hadoop dfsadmin help
+
+	[-report [-live] [-dead] [-decommissioning]]
+	[-safemode <enter | leave | get | wait>]
+	[-saveNamespace]
+	[-rollEdits]
+	[-restoreFailedStorage true|false|check]
+	[-refreshNodes]
+	[-setQuota <quota> <dirname>...<dirname>]
+	[-clrQuota <dirname>...<dirname>]
+	[-setSpaceQuota <quota> <dirname>...<dirname>]
+	[-clrSpaceQuota <dirname>...<dirname>]
+	[-finalizeUpgrade]
+	[-rollingUpgrade [<query|prepare|finalize>]]
+	[-refreshServiceAcl]
+	[-refreshUserToGroupsMappings]
+	[-refreshSuperUserGroupsConfiguration]
+	[-refreshCallQueue]
+	[-refresh <host:ipc_port> <key> [arg1..argn]
+	[-reconfig <datanode|...> <host:ipc_port> <start|status|properties>]
+	[-printTopology]
+	[-refreshNamenodes datanode_host:ipc_port]
+	[-deleteBlockPool datanode_host:ipc_port blockpoolId [force]]
+	[-setBalancerBandwidth <bandwidth in bytes per second>]
+	[-fetchImage <local directory>]
+	[-allowSnapshot <snapshotDir>]
+	[-disallowSnapshot <snapshotDir>]
+	[-shutdownDatanode <datanode_host:ipc_port> [upgrade]]
+	[-getDatanodeInfo <datanode_host:ipc_port>]
+	[-metasave filename]
+	[-triggerBlockReport [-incremental] <datanode_host:ipc_port>]
+	[-help [cmd]]
+
+Generic options supported are
+-conf <configuration file>     specify an application configuration file
+-D <property=value>            use value for given property
+-fs <local|namenode:port>      specify a namenode
+-jt <local|resourcemanager:port>    specify a ResourceManager
+-files <comma separated list of files>    specify comma separated files to be copied to the map reduce cluster
+-libjars <comma separated list of jars>    specify comma separated jar files to include in the classpath.
+-archives <comma separated list of archives>    specify comma separated archives to be unarchived on the compute machines.

@@ -1,0 +1,23 @@
+NameNode WebUi Check From the NameNode WebUI, determine if all NameNodes and DataNodes are up and running.
+
+http://<namenode>:<namenodeport>
+Default port is 50070, for other default ports, see Hadoop Ports reference
+
+NameNode healthy
+
+http://<namenode>:50070/dfshealth.html#tab-overview
+DataNode healthy
+
+http://<namenode>:50070/dfshealth.html#tab-datanode
+DataNode Volume failure
+
+http://<namenode>:50070/dfshealth.html#tab-datanode-volume-failures
+You can also check snapshot status, cluster startup status etc..
+
+If you are on a highly available HDFS cluster, go to the StandbyNameNode web UI to see if all DataNodes are up and running:
+
+http://<standbynamenode>:<namenodeport>
+If you are not on a highly available HDFS cluster, go to the SecondaryNameNode web UI to see if it the secondary node is up
+and running:
+
+http://<secondarynamenode>:<secondarynamenodeport>

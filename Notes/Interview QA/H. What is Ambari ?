@@ -1,0 +1,5 @@
+A completely open source management platform for provisioning, managing, monitoring and securing Apache Hadoop clusters. 
+Apache Ambari takes the guesswork out of operating Hadoop.
+
+Apache Ambari, as part of the Hortonworks Data Platform, allows enterprises to plan, install and securely configure 
+HDP making it easier to provide ongoing cluster maintenance and management, no matter the size of the cluster.
