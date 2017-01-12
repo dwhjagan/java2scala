@@ -1,0 +1,41 @@
+http://twitter.github.io/effectivescala/#Formatting-Pattern matching
+
+Control structures  - Returns
+------------------------------------
+def suffix(i: Int) = {
+  if      (i == 1) return "st"
+  else if (i == 2) return "nd"
+  else if (i == 3) return "rd"
+  else             return "th"
+}
+prefer:
+
+def suffix(i: Int) =
+  if      (i == 1) "st"
+  else if (i == 2) "nd"
+  else if (i == 3) "rd"
+  else             "th"
+but using a match expression is superior to either:
+
+def suffix(i: Int) = i match {
+  case 1 => "st"
+  case 2 => "nd"
+  case 3 => "rd"
+  case _ => "th"
+}
+-------------------------
+Pattern matching
+Use pattern matching directly in function definitions whenever applicable; instead of
+
+list map { item =>
+  item match {
+    case Some(x) => x
+    case None => default
+  }
+}
+collapse the match
+
+list map {
+  case Some(x) => x
+  case None => default
+}

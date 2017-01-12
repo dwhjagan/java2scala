@@ -1,0 +1,22 @@
+Deadlock and Livelock Explained
+----------
+https://www.quora.com/What-is-the-difference-between-deadlock-and-
+livelock-deadlock-infinite-recursion-and-starvation
+Deadlock: "Me first, Me first"
+Livelock: " You first, You first"
+Starvation: "Some first, Others never"
+
+---------------
+The Hadoop Distributed File System (HDFS) is designed to store very large data sets
+reliably, and to stream those data sets at high bandwidth to user applications.
+In a large cluster, thousands of servers both host directly attached storage and
+execute user application tasks.
+
+Features of HDFS
+It is suitable for the distributed storage and processing.
+Hadoop provides a command interface to interact with HDFS.
+The built-in servers of namenode and datanode help users to easily check the status of cluster.
+Streaming access to file system data.
+HDFS provides file permissions and authentication.
+
+-----------
