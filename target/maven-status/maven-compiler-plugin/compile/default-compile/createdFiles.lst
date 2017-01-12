@@ -18,6 +18,7 @@ FirstProgram/stringclass/stringarray.class
 edu/faq/s89.class
 x/crazyjvm/command/j/Invoker.class
 edu/Edu2/EmployeeDemo.class
+GC.class
 x/crazyjvm/ioc/j/DatabaseRepository.class
 edu/Edu2/Constructorex1.class
 x/crazyjvm/adapter/j/LoggerToLogAdapter.class
@@ -43,6 +44,7 @@ FirstProgram/Dateclass/dateformat2.class
 modules/module3/randevent/RandEventListener.class
 x/crazyjvm/decorate/j/OutputStreamDecorator.class
 modules/module3/ISearchHelper.class
+A1.class
 edu/edu3/block.class
 modules/module3/randevent/RandEventConsumer.class
 x/crazyjvm/decorate/j/BufferedOutputStream.class
@@ -81,6 +83,7 @@ x/crazyjvm/factory/j/AnimalFactory.class
 x/crazyjvm/value/j/Point.class
 modules/module5/generics/GenericUtils.class
 x/crazyjvm/nullvalue/j/NullSound.class
+GCTest.class
 modules/module4/TestNestedException.class
 valtecex/Subsequence.class
 x/crazyjvm/singleton/j/Cat.class
@@ -107,6 +110,7 @@ x/crazyjvm/strategy/j/Add.class
 FirstProgram/variable/booleanclass.class
 FirstProgram/valuclass/valueclass.class
 x/crazyjvm/adapter/j/Log.class
+A.class
 modules/module2/AbstractSearch.class
 edu/faq/Shape.class
 modules/module3/SearchHelper.class
@@ -178,6 +182,7 @@ x/crazyjvm/strategy/j/Context.class
 x/crazyjvm/ioc/j/Repository.class
 modules/module1/NineTable.class
 Encapsulation/Inheritance/Inheritancecal.class
+sample2.class
 x/crazyjvm/decorate/j/FileOutputStream.class
 edu/Edu2/MonthFromNumber.class
 FirstProgram/FirstProgram/FreshJuiceTest.class
@@ -207,6 +212,8 @@ com/construc/overloadingcontructor.class
 FirstProgram/charAtclass/returndoc.class
 valtecex/ex/Arraysum.class
 modules/module5/generics/KeyValuePair.class
+Collections/HashMapDemo.class
+Collections/LinkedListExample.class
 Encapsulation/interfacepkg/interfaceclass.class
 edu/edu3/com/constructor/constructor.class
 FirstProgram/FirstProgram/MyFirstJavaProgram.class
