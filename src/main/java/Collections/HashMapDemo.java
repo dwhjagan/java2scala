@@ -32,7 +32,7 @@ public class HashMapDemo {
 
         // Deposit 1000 into Zara's account
         double balance = ((Double)hm.get("Zara")).doubleValue();
-        hm.put("Zara", new Double(balance + 1000));
+        hm.put("Zara", new Double(balance + 1000000));
         System.out.println("Zara's new balance: " + hm.get("Zara"));
     }
 }
