@@ -1,129 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9c3e6f8-9971-4a5b-b791-f4308fd2a439" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/junit/ArrayDataException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/junit/ArrayUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/mem/MyStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/mem/MyStackApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/mem/MyStackException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/mem/leaks/MyStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/mem/leaks/MyStackApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/Singleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/adapter/Adaptee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/adapter/Adapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/adapter/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/adapter/Target.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/observer/randwatcher/DummyGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/observer/randwatcher/RandGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/observer/randwatcher/RandListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/state/MediaPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/state/MediaPlayerApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/state/MediaState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/state/PlayState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M10/patterns/state/StopState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M11/scripts/ddl.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M11/scripts/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M11/scripts/inserts.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/asso/TestMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/ArithmeticOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/BinarySearchTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/FriendFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/FriendshipCriteria.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/GenericMethodTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/GenericUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/GoldenRules.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/generics/KeyValuePair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/seq/TestSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M5/seq/TestVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/BinaryFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/FileListing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/SerializationDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/TextFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/bkmenu/BkMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/bkmenu/BkMenuPriceFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/bkmenu/SAXParserDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/bkmenu/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/catalogue/BookCatalogue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/catalogue/CatalogueUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/catalogue/DOMParserDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/catalogue/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M6/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/deadlock/AvoidDeadlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/deadlock/Deadlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/deadlock/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/itc/Counter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/itc/CounterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/itc/Incrementor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/itc/IncrementorDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/itc/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/racecondition/RaceConditionDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/racecondition/RandomNumberPrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/racecondition/WithoutRaceConditionDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/racecondition/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/sync/IntegerTables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/sync/IntegerTablesDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M7/sync/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/bin/module8/ddl/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/lib/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/resources/dbcon.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/resources/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/scripts/create_student.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/scripts/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/scripts/get_name.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/scripts/insert_student.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/scripts/world.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/TestConnectionMySQL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/batch/BatchProcessDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/batch/FixRecords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/batch/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/ddl/CreateTableDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/ddl/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/dml/InsertTableDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/dml/UpdateTableDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/dml/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/proc/InParamDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/proc/OutParamDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/proc/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/query/DbMetaDataDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/query/ParameterizedQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/query/ReadTableDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M8/src/module8/query/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/ni/QueryNetworkInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/ni/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/multiclient/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/multiclient/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/multiclient/ServerThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/tcp/sockets/multiclient/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/multicast/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/multicast/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/multicast/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/unicast/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/unicast/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/udp/unicast/desktop.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/url/MyFileDownloader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/url/UrlContentReading.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/url/UrlParsing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EduJava/M9/url/desktop.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/javascala.artifactid-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="d9c3e6f8-9971-4a5b-b791-f4308fd2a439" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,7 +27,7 @@
       <file leaf-file-name="ddl.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EduJava/M11/scripts/ddl.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="768">
               <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
@@ -977,12 +855,12 @@
       <updated>1483895786136</updated>
       <workItem from="1483895787802" duration="5406000" />
       <workItem from="1483963898017" duration="8365000" />
-      <workItem from="1484137940841" duration="18205000" />
+      <workItem from="1484137940841" duration="18531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31976000" />
+    <option name="totallyTimeSpent" value="32302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1491,7 +1369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EduJava/M11/scripts/ddl.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="768">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
