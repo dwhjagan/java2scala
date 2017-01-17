@@ -12,7 +12,7 @@ public class ExampleVoid {
 
     public static void methodRankPoints(double points) {
         if (points >= 202.5) {
-            System.out.println("Rank:A1");
+            System.out.println("Rank:HashCodeexx");
         }else if (points >= 122.4) {
             System.out.println("Rank:A2");
         }else {
