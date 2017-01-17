@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ContractTest {
+
 }
 class EmployeeKey {
 
@@ -22,6 +23,7 @@ class EmployeeKey {
     }
 
     static Map<EmployeeKey, String> loadEmpCache() {
+
         EmployeeKey ek1 = new EmployeeKey("100", "06071984");
         EmployeeKey ek2 = new EmployeeKey("101", "06071985");
         EmployeeKey ek3 = new EmployeeKey("102", "06071988");
@@ -53,3 +55,4 @@ class EmployeeKey {
     }
 
 }
+

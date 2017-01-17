@@ -1,0 +1,43 @@
+
+It's Cmd + Shift + F12  --> maxmize window.
+Shift + F10 - Run the script
+Ctr + enter on the variable - for generate.
+Atl + enter - modifier
+
+psvm + Tab - public static void main(String args[])
+sout + Tab - System.out.println("")
+soutv + Tab - ystem.out.println("value = " + value)
+------
+
+
+Basic IntelliJ IDEA key shortcuts
+Alt + 1 - open / close the project tool window
+Alt + Insert - new / create
+Control + Shift + F12 – maximize the editor
+
+Alt + F1 - open the current file in a tool window
+Tab - expand live template
+
+
+
+
+Control + Z - undo
+
+Control + F1 - display error message
+Alt + Enter - intentions and quickfixes pop-up menu
+Alt + Enter + Right - options for a particular intention or quickfix
+Control + Space - code completion
+Control + Shift + Space - smart code completion
+Control + Shift + Enter - complete statement
+Control + B - go to definition
+Control + Shift + I - quick definition preview
+Control + Q - view javadoc
+Control + Alt + U - UML class diagram popup
+Control + W - expand block selection
+Control + Shift + W - shrink block selection
+Control + Alt + V - introduce variable
+Control + Alt + M - extract method
+Control + Alt + N - Inline
+Control + Alt + F - introduce field
+Control + Alt + C - introduce constant
+Control + Alt + P - extract parameter

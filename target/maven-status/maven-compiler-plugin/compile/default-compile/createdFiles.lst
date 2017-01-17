@@ -130,6 +130,7 @@ EduJava/M9/tcp/sockets/Client.class
 EduJava/M1/DoWhileDemo.class
 edu/faq/Rectangle.class
 Encapsulation/interfacepkg/MammalInt.class
+Customerex.class
 modules/module2/Rectangle.class
 edu/edu3/A.class
 valtecex/ex/sum.class
@@ -276,6 +277,7 @@ valtecex/kSubsequence.class
 com/construc/Noargs_param_constructorClass.class
 EduJava/M6/Person.class
 FirstProgram/Methodclass/ExampleOverloading.class
+TDD/HelloWorldApp.class
 x/crazyjvm/value/j/Point.class
 EduJava/M2/IntegerFinderTest$1.class
 x/crazyjvm/nullvalue/j/NullSound.class
